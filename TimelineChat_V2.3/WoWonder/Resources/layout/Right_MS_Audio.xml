@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="end"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:id="@+id/main"
+    android:paddingEnd="3dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="200dp"
+        android:background="@drawable/chat_rounded_right_layout"
+        android:layout_height="42dp"
+        android:gravity="end"
+        android:id="@+id/bubble_layout"
+        android:layout_gravity="end"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="3dp">
+        <at.markushi.ui.CircleButton
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            app:cb_color="@color/textLight_color"
+            app:cb_pressedRingWidth="13dip"
+            android:src="@drawable/ic_play_arrow"
+            android:id="@+id/playButton"
+            android:tag="Play"
+            android:layout_weight="2"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+        <ProgressBar
+            android:id="@+id/loadingProgressview"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:max="100"
+            android:progress="0"
+            android:visibility="visible"
+            android:layout_gravity="center"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_weight="2"
+            android:indeterminate="true"
+            android:secondaryProgress="100"
+            android:secondaryProgressTint="@color/textLight_color"
+            android:progressTint="@color/textLight_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Duration"
+            android:layout_weight="2"
+            android:layout_gravity="center"
+            android:textColor="@color/textLight_color" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/time"
+            android:layout_weight="1"
+            android:text="10/26/2020"
+            android:textColor="@color/textLight_color" 
+            android:textSize="10dp"
+            android:gravity="center"
+            android:layout_gravity="center"  />
+        <RelativeLayout
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:layout_marginBottom="2dp"
+          android:gravity="center"
+          android:layout_gravity="center" >
+          <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/starIcon"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            app:lottie_loop="false"
+            android:layout_centerInParent="true"
+            app:lottie_fileName="FavAnim.json" />
+          <ImageView
+            android:id="@+id/fav"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icon_fav_post_vector" 
+            android:gravity="center" 
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:padding="2dp" />
+        </RelativeLayout> 
+        <TextView
+          android:layout_height="match_parent"
+          android:id="@+id/seen"
+          android:textColor="@color/textLight_color"
+          android:textSize="15dp"
+          android:gravity="center"
+          android:layout_gravity="center"
+          android:text="Ic"
+          android:layout_marginTop="8dp"
+          android:layout_marginEnd="8dp" 
+          android:layout_marginBottom="8dp"
+          android:layout_width="15dp" />  
+    </LinearLayout>
+</LinearLayout>

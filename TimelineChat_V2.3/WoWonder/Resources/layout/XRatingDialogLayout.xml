@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ratingLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_dialog" 
+    android:orientation="vertical">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp">
+    <TextView
+        android:text="Rate: "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" 
+        android:textStyle="bold" 
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <RatingBar android:id="@+id/UserRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:layout_marginStart="0dp"
+        android:progressTint="#ffa600" 
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:isIndicator="false"
+        android:minHeight="0dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:secondaryProgressTint="#ffa600"/>
+    <!--<ImageView
+        android:id="@+id/delRatingBtn"
+        android:scaleType="centerCrop"
+        android:layout_gravity="end"
+        android:tint="@color/gnt_blue"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_unstar"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content" 
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />-->
+    <ImageView
+        android:id="@+id/delRatingBtn"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:src="@drawable/icon_unstar"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content" 
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_toRightOf="@id/UserRatingBar"/>
+</RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#c0c0c0"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="12dp" />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    android:orientation="vertical">
+    <TextView
+        android:text="User Ratings"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2" 
+        android:textStyle="bold" 
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:text="0 User(s) Rated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RatingCountText" 
+        android:layout_alignParentLeft="true" 
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp"/>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Star5Layout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/star5Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="5 star"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight = "1"
+            android:progressDrawable="@drawable/Custom_Progressbar"
+            android:layout_height="20dp"
+            android:id="@+id/star5Progress"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:progressTint="#ffa600" />
+        <TextView
+            android:id="@+id/star5TextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Star4Layout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/star4Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="4 star"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight = "1"
+            android:progressDrawable="@drawable/Custom_Progressbar"
+            android:layout_height="20dp"
+            android:id="@+id/star4Progress"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:progressTint="#ffa600"/>
+        <TextView
+            android:id="@+id/star4TextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Star3Layout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/star3Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="3 star"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight = "1"
+            android:progressDrawable="@drawable/Custom_Progressbar"
+            android:layout_height="20dp"
+            android:id="@+id/star3Progress"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:progressTint="#ffa600"/>
+        <TextView
+            android:id="@+id/star3TextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Star2Layout"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/star2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="2 star"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight = "1"
+            android:progressDrawable="@drawable/Custom_Progressbar"
+            android:layout_height="20dp"
+            android:id="@+id/star2Progress"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:progressTint="#ffa600"/>
+        <TextView
+            android:id="@+id/star2TextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Star1Layout"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/star1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="1 star"
+            android:layout_alignParentLeft="true"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical" />
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_weight = "1"
+            android:layout_height="20dp"
+            android:id="@+id/star1Progress"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="0" 
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:progressTint="#ffa600"
+            android:progressDrawable="@drawable/Custom_Progressbar"/>
+        <TextView
+            android:id="@+id/star1TextView"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="0%"
+            android:textSize="14sp" 
+            android:layout_weight = "0"
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+ </LinearLayout>
+</LinearLayout>

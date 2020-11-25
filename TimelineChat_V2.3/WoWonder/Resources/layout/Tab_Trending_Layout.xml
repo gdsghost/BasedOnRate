@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="?attr/colorFill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="50dp"
+        android:layout_gravity="fill_vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="?attr/colorFill"
+            android:paddingBottom="20dp">
+            <!--Followers Section-->
+            <LinearLayout
+                android:id="@+id/layout_suggestion_Friends"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginTop="0dp"
+                android:paddingBottom="3dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/friends_head_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:textStyle="bold"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="15dp"
+                        android:text="@string/Lbl_Pro_Users"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/friends_counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="30dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="12dp"
+                        android:textColor="#d2d2d2"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/iv_more_folowers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="15dp"
+                        android:textColor="#d2d2d2" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/proRecyler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0dp"
+                    android:scrollbars="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp" />
+            </LinearLayout>
+            <!--Friends Request Section-->
+            <RelativeLayout
+                android:id="@+id/layout_friend_Request"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:background="?attr/colorFill">
+                <RelativeLayout
+                    android:id="@+id/layout_user_pages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/layout_Friends_description">
+                    <ImageView
+                        android:id="@+id/image_page_1"
+                        android:scaleType="centerCrop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_toStartOf="@+id/image_page_2"
+                        android:padding="5dp" />
+                    <ImageView
+                        android:id="@+id/image_page_2"
+                        android:scaleType="centerCrop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginStart="-30dp"
+                        android:layout_toStartOf="@+id/image_page_3"
+                        android:padding="5dp" />
+                    <ImageView
+                        android:id="@+id/image_page_3"
+                        android:scaleType="centerCrop"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="-30dp"
+                        android:padding="5dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/layout_Friends_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_centerVertical="true">
+                    <TextView
+                        android:id="@+id/tv_Friends_connection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Lbl_FriendRequest"
+                        android:textSize="14sp" />
+                    <ImageView
+	                    android:layout_width="18dp"
+	                    android:layout_height="18dp"
+	                    android:id="@+id/count_view"
+	                    android:foregroundGravity="center_horizontal"
+	                    android:layout_marginStart="5dp"
+	                    android:layout_marginBottom="2dp"
+	                    android:src="@drawable/gray_circle"
+						android:tint="@color/accent"
+						android:visibility="gone"
+	                    android:layout_toEndOf="@id/tv_Friends_connection" />
+                    <TextView
+                        android:id="@+id/tv_Friends"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:layout_below="@+id/tv_Friends_connection"
+                        android:text="@string/Lbl_View_All_FriendRequest"
+                        android:textSize="14sp" />
+                </RelativeLayout> 
+            </RelativeLayout>
+            <!--Promoted Page Section-->
+            <LinearLayout
+                android:id="@+id/layout_suggestion_PromotedPage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                android:background="?attr/colorFill"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tv_photos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="15dp"
+                        android:text="@string/Lbl_Pro_Pages"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/tv_photoscount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="30dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="12dp"
+                        android:textColor="#d2d2d2"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:id="@+id/iv_more_photos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="17sp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="15dp"
+                        android:textColor="#d2d2d2" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/pagerecyler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0dp"
+                    android:scrollbars="vertical"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp" />
+            </LinearLayout>
+            <!--last Activities Section-->
+            <View
+                android:layout_width="match_parent"
+                android:background="#efefef"
+                android:layout_height="1dp" />
+            <LinearLayout
+                android:id="@+id/layout_suggestion_lastactivities"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:paddingBottom="10dp"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingTop="11dp"
+                        android:textStyle="bold"
+                        android:text="@string/Lbl_LastActivities"
+                        android:textSize="16sp" />
+                    <TextView
+                        android:id="@+id/tv_lastactivities"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="30dp"
+                        android:paddingBottom="10dp"
+                        android:paddingStart="10dp"
+                        android:paddingTop="12dp"
+                        android:textAllCaps="true"
+                        android:text="@string/Lbl_SeeAll"
+                        android:textColor="#757575"
+                        android:textSize="13sp" />
+                    <TextView
+                        android:id="@+id/iv_more_lastactivities"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:text="&gt;"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginEnd="15dp"
+                        android:textColor="#757575" />
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/lastactivitiesRecyler"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginBottom="0dp"
+                    android:scrollbars="vertical"
+                    android:layoutAnimation="@anim/recyclerview_layout_anim1"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp" />
+            </LinearLayout>
+            <View 
+	            android:layout_height="20dp"
+	            android:layout_width="match_parent" /> 
+                <com.google.android.gms.ads.doubleclick.PublisherAdView
+                    android:id="@+id/multiple_ad_sizes_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    app:adSize="MEDIUM_RECTANGLE,120x20,250x250,320x100,SMART_BANNER"
+                    app:adUnitId="@string/banner_multiple_ad_sizes_id" />
+            <View 
+	            android:layout_height="?android:attr/actionBarSize"
+	            android:layout_width="match_parent" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

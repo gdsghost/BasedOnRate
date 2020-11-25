@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                     android:background="?attr/colorFill"
+                                                     android:layout_width="match_parent"
+                                                     android:layout_height="wrap_content"
+                                                     android:orientation="vertical">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--Friends Request Section-->
+            <RelativeLayout
+                android:id="@+id/layout_friend_Request"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:background="@drawable/linear_gradient_drawable"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_marginBottom="5dp">
+                <RelativeLayout
+                    android:layout_toEndOf="@+id/layout_user_pages"
+                    android:id="@+id/layout_Friends_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true">
+                    <TextView
+                        android:id="@+id/tv_Friends_connection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffff"
+                        android:text="@string/Lbl_FriendRequest"
+                        android:textSize="@dimen/msg_text_primary" />
+                    <TextView
+                        android:id="@+id/tv_Friends"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3.5dp"
+                        android:layout_below="@+id/tv_Friends_connection"
+                        android:text="@string/Lbl_View_All_FriendRequest"
+                        android:textSize="@dimen/msg_text_secondary"
+                        android:textColor="#f6f6f6" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/layout_user_pages"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_marginTop="7dp">
+                    <refractored.controls.CircleImageView
+                        android:id="@+id/image_page_1"
+                        android:scaleType="centerCrop"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        app:civ_border_width="1.5dp"
+                        app:civ_border_color="@color/accent"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/imageplacholder_circle"
+                        android:layout_toEndOf="@+id/image_page_2"
+                        android:padding="5dp" />
+                    <refractored.controls.CircleImageView
+                        android:id="@+id/image_page_2"
+                        android:scaleType="centerCrop"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        app:civ_border_width="1.5dp"
+                        app:civ_border_color="@color/accent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="-40dp"
+                        android:src="@drawable/imageplacholder_circle"
+                        android:layout_toEndOf="@+id/image_page_3"
+                        android:padding="5dp" />
+                    <refractored.controls.CircleImageView
+                        android:id="@+id/image_page_3"
+                        android:scaleType="centerCrop"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        app:civ_border_width="1.5dp"
+                        app:civ_border_color="@color/accent"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginEnd="-40dp"
+                        android:src="@drawable/imageplacholder_circle"
+                        android:padding="5dp" />
+                </RelativeLayout>
+            </RelativeLayout> 
+            <RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+              <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyler"
+                android:clickable="true"
+                android:focusable="false"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:focusableInTouchMode="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"  />
+              <LinearLayout
+                android:id="@+id/bannerContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical" />
+            </RelativeLayout>  
+        </LinearLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+	<ViewStub
+		android:id="@+id/viewStub"
+		android:inflatedId="@+id/subView"
+		android:layout_marginTop="35dp"
+		android:layout_centerInParent="true"
+		android:layout="@layout/EmptyStateLayout"
+		android:layout_width="match_parent"
+		android:layout_height="350dp" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout> 
