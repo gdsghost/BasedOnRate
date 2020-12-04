@@ -24784,11 +24784,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0030
 			public const int CommentsPointLayouts = 2131427376;
 			
-			// aapt resource value: 0x7F0B002E
-			public const int CommentText = 2131427374;
-			
 			// aapt resource value: 0x7F0B0330
 			public const int commenttext = 2131428144;
+			
+			// aapt resource value: 0x7F0B002E
+			public const int CommentText = 2131427374;
 			
 			// aapt resource value: 0x7F0B032F
 			public const int comment_layout = 2131428143;
@@ -24853,11 +24853,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0338
 			public const int container_list = 2131428152;
 			
-			// aapt resource value: 0x7F0B0339
-			public const int content = 2131428153;
-			
 			// aapt resource value: 0x7F0B0034
 			public const int Content = 2131427380;
+			
+			// aapt resource value: 0x7F0B0339
+			public const int content = 2131428153;
 			
 			// aapt resource value: 0x7F0B0341
 			public const int contentad_advertiser = 2131428161;
@@ -25093,11 +25093,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0372
 			public const int default_reader_id = 2131428210;
 			
-			// aapt resource value: 0x7F0B0374
-			public const int deleteButton = 2131428212;
-			
 			// aapt resource value: 0x7F0B0049
 			public const int DeleteButton = 2131427401;
+			
+			// aapt resource value: 0x7F0B0374
+			public const int deleteButton = 2131428212;
 			
 			// aapt resource value: 0x7F0B004A
 			public const int DeleteCheckBox = 2131427402;
@@ -25993,11 +25993,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B046E
 			public const int hybrid = 2131428462;
 			
-			// aapt resource value: 0x7F0B0079
-			public const int Icon = 2131427449;
-			
 			// aapt resource value: 0x7F0B0471
 			public const int icon = 2131428465;
+			
+			// aapt resource value: 0x7F0B0079
+			public const int Icon = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
 			public const int IconAbout = 2131427450;
@@ -26140,11 +26140,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0473
 			public const int iconMicrophone = 2131428467;
 			
-			// aapt resource value: 0x7F0B00A5
-			public const int IconMore = 2131427493;
-			
 			// aapt resource value: 0x7F0B0474
 			public const int iconMore = 2131428468;
+			
+			// aapt resource value: 0x7F0B00A5
+			public const int IconMore = 2131427493;
 			
 			// aapt resource value: 0x7F0B00A6
 			public const int IconName = 2131427494;
@@ -26218,11 +26218,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B00BD
 			public const int IconTime = 2131427517;
 			
-			// aapt resource value: 0x7F0B00BE
-			public const int IconTitle = 2131427518;
-			
 			// aapt resource value: 0x7F0B0475
 			public const int iconTitle = 2131428469;
+			
+			// aapt resource value: 0x7F0B00BE
+			public const int IconTitle = 2131427518;
 			
 			// aapt resource value: 0x7F0B00BF
 			public const int IconTwitter = 2131427519;
@@ -26308,11 +26308,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B047F
 			public const int ignoreRequest = 2131428479;
 			
-			// aapt resource value: 0x7F0B00D1
-			public const int Image = 2131427537;
-			
 			// aapt resource value: 0x7F0B0480
 			public const int image = 2131428480;
+			
+			// aapt resource value: 0x7F0B00D1
+			public const int Image = 2131427537;
 			
 			// aapt resource value: 0x7F0B0481
 			public const int image2 = 2131428481;
@@ -26323,11 +26323,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0483
 			public const int image4 = 2131428483;
 			
-			// aapt resource value: 0x7F0B00D2
-			public const int ImageAvatar = 2131427538;
-			
 			// aapt resource value: 0x7F0B0484
 			public const int imageAvatar = 2131428484;
+			
+			// aapt resource value: 0x7F0B00D2
+			public const int ImageAvatar = 2131427538;
 			
 			// aapt resource value: 0x7F0B049B
 			public const int imageblog = 2131428507;
@@ -26368,11 +26368,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B00D6
 			public const int ImageLastseen = 2131427542;
 			
-			// aapt resource value: 0x7F0B00D7
-			public const int ImageLayout = 2131427543;
-			
 			// aapt resource value: 0x7F0B048A
 			public const int imageLayout = 2131428490;
+			
+			// aapt resource value: 0x7F0B00D7
+			public const int ImageLayout = 2131427543;
 			
 			// aapt resource value: 0x7F0B00D8
 			public const int ImageLive = 2131427544;
@@ -26407,14 +26407,14 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B00E5
 			public const int Imagevideo = 2131427557;
 			
-			// aapt resource value: 0x7F0B049D
-			public const int imageview = 2131428509;
-			
 			// aapt resource value: 0x7F0B048E
 			public const int imageView = 2131428494;
 			
 			// aapt resource value: 0x7F0B00E6
 			public const int Imageview = 2131427558;
+			
+			// aapt resource value: 0x7F0B049D
+			public const int imageview = 2131428509;
 			
 			// aapt resource value: 0x7F0B00DF
 			public const int ImageView_image = 2131427551;
@@ -26620,11 +26620,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B00F3
 			public const int JobTypeTextView = 2131427571;
 			
-			// aapt resource value: 0x7F0B00F5
-			public const int JoinButton = 2131427573;
-			
 			// aapt resource value: 0x7F0B04C4
 			public const int joinButton = 2131428548;
+			
+			// aapt resource value: 0x7F0B00F5
+			public const int JoinButton = 2131427573;
 			
 			// aapt resource value: 0x7F0B00F6
 			public const int JoinPrivacyEditText = 2131427574;
@@ -27529,11 +27529,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0592
 			public const int message = 2131428754;
 			
-			// aapt resource value: 0x7F0B0593
-			public const int messageButton = 2131428755;
-			
 			// aapt resource value: 0x7F0B0597
 			public const int messagebutton = 2131428759;
+			
+			// aapt resource value: 0x7F0B0593
+			public const int messageButton = 2131428755;
 			
 			// aapt resource value: 0x7F0B0157
 			public const int Messages_Edit = 2131427671;
@@ -27595,11 +27595,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B05A4
 			public const int more = 2131428772;
 			
-			// aapt resource value: 0x7F0B05A5
-			public const int moreButton = 2131428773;
-			
 			// aapt resource value: 0x7F0B05AA
 			public const int morebutton = 2131428778;
+			
+			// aapt resource value: 0x7F0B05A5
+			public const int moreButton = 2131428773;
 			
 			// aapt resource value: 0x7F0B05AB
 			public const int moreicon = 2131428779;
@@ -27616,11 +27616,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B05A6
 			public const int moreLinear = 2131428774;
 			
-			// aapt resource value: 0x7F0B0159
-			public const int MoreText = 2131427673;
-			
 			// aapt resource value: 0x7F0B05A7
 			public const int moreText = 2131428775;
+			
+			// aapt resource value: 0x7F0B0159
+			public const int MoreText = 2131427673;
 			
 			// aapt resource value: 0x7F0B05A8
 			public const int more_actions_dock = 2131428776;
@@ -27928,11 +27928,11 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B060D
 			public const int navigator_container = 2131428877;
 			
-			// aapt resource value: 0x7F0B060E
-			public const int nestedScrollView = 2131428878;
-			
 			// aapt resource value: 0x7F0B0160
 			public const int NestedScrollView = 2131427680;
+			
+			// aapt resource value: 0x7F0B060E
+			public const int nestedScrollView = 2131428878;
 			
 			// aapt resource value: 0x7F0B060F
 			public const int nested_content = 2131428879;
@@ -28294,44 +28294,47 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0674
 			public const int play = 2131428980;
 			
-			// aapt resource value: 0x7F0B0676
-			public const int playback_controls_dock = 2131428982;
-			
 			// aapt resource value: 0x7F0B0677
-			public const int playback_fragment_background = 2131428983;
+			public const int playback_controls_dock = 2131428983;
 			
 			// aapt resource value: 0x7F0B0678
-			public const int playback_fragment_root = 2131428984;
+			public const int playback_fragment_background = 2131428984;
 			
 			// aapt resource value: 0x7F0B0679
-			public const int playback_progress = 2131428985;
+			public const int playback_fragment_root = 2131428985;
+			
+			// aapt resource value: 0x7F0B067A
+			public const int playback_progress = 2131428986;
 			
 			// aapt resource value: 0x7F0B0675
 			public const int playButton = 2131428981;
 			
-			// aapt resource value: 0x7F0B067C
-			public const int playerrootpage = 2131428988;
-			
-			// aapt resource value: 0x7F0B067A
-			public const int player_view = 2131428986;
+			// aapt resource value: 0x7F0B067D
+			public const int playerrootpage = 2131428989;
 			
 			// aapt resource value: 0x7F0B067B
-			public const int player_view2 = 2131428987;
+			public const int player_view = 2131428987;
 			
-			// aapt resource value: 0x7F0B067D
-			public const int playing = 2131428989;
+			// aapt resource value: 0x7F0B067C
+			public const int player_view2 = 2131428988;
+			
+			// aapt resource value: 0x7F0B067E
+			public const int playing = 2131428990;
+			
+			// aapt resource value: 0x7F0B0676
+			public const int playUsersSong = 2131428982;
 			
 			// aapt resource value: 0x7F0B0172
 			public const int Play_control = 2131427698;
 			
-			// aapt resource value: 0x7F0B067E
-			public const int popup_bubble = 2131428990;
+			// aapt resource value: 0x7F0B067F
+			public const int popup_bubble = 2131428991;
+			
+			// aapt resource value: 0x7F0B0680
+			public const int position = 2131428992;
 			
 			// aapt resource value: 0x7F0B0173
 			public const int Position = 2131427699;
-			
-			// aapt resource value: 0x7F0B067F
-			public const int position = 2131428991;
 			
 			// aapt resource value: 0x7F0B0174
 			public const int PositionEditText = 2131427700;
@@ -28339,83 +28342,83 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0175
 			public const int PositionText = 2131427701;
 			
-			// aapt resource value: 0x7F0B0680
-			public const int postBlogContent = 2131428992;
-			
-			// aapt resource value: 0x7F0B068A
-			public const int postblogText = 2131429002;
-			
 			// aapt resource value: 0x7F0B0681
-			public const int postEvent = 2131428993;
-			
-			// aapt resource value: 0x7F0B0682
-			public const int postExtras = 2131428994;
+			public const int postBlogContent = 2131428993;
 			
 			// aapt resource value: 0x7F0B068B
-			public const int postfileText = 2131429003;
+			public const int postblogText = 2131429003;
+			
+			// aapt resource value: 0x7F0B0682
+			public const int postEvent = 2131428994;
 			
 			// aapt resource value: 0x7F0B0683
-			public const int postLayout = 2131428995;
-			
-			// aapt resource value: 0x7F0B0684
-			public const int postLinkContent = 2131428996;
-			
-			// aapt resource value: 0x7F0B0685
-			public const int postLinkTitle = 2131428997;
-			
-			// aapt resource value: 0x7F0B0686
-			public const int postProductContent = 2131428998;
-			
-			// aapt resource value: 0x7F0B0687
-			public const int postProductLocationText = 2131428999;
-			
-			// aapt resource value: 0x7F0B0688
-			public const int postProductTitle = 2131429000;
+			public const int postExtras = 2131428995;
 			
 			// aapt resource value: 0x7F0B068C
-			public const int postsectionimage = 2131429004;
+			public const int postfileText = 2131429004;
+			
+			// aapt resource value: 0x7F0B0684
+			public const int postLayout = 2131428996;
+			
+			// aapt resource value: 0x7F0B0685
+			public const int postLinkContent = 2131428997;
+			
+			// aapt resource value: 0x7F0B0686
+			public const int postLinkTitle = 2131428998;
+			
+			// aapt resource value: 0x7F0B0687
+			public const int postProductContent = 2131428999;
+			
+			// aapt resource value: 0x7F0B0688
+			public const int postProductLocationText = 2131429000;
 			
 			// aapt resource value: 0x7F0B0689
-			public const int postText = 2131429001;
+			public const int postProductTitle = 2131429001;
 			
 			// aapt resource value: 0x7F0B068D
-			public const int price = 2131429005;
+			public const int postsectionimage = 2131429005;
+			
+			// aapt resource value: 0x7F0B068A
+			public const int postText = 2131429002;
+			
+			// aapt resource value: 0x7F0B068E
+			public const int price = 2131429006;
 			
 			// aapt resource value: 0x7F0B0176
 			public const int PriceEditText = 2131427702;
 			
-			// aapt resource value: 0x7F0B068E
-			public const int priceHead = 2131429006;
-			
 			// aapt resource value: 0x7F0B068F
-			public const int priceIcon = 2131429007;
-			
-			// aapt resource value: 0x7F0B0692
-			public const int pricetext = 2131429010;
+			public const int priceHead = 2131429007;
 			
 			// aapt resource value: 0x7F0B0690
-			public const int priceText = 2131429008;
-			
-			// aapt resource value: 0x7F0B0691
-			public const int priceTextView = 2131429009;
+			public const int priceIcon = 2131429008;
 			
 			// aapt resource value: 0x7F0B0693
-			public const int primary = 2131429011;
+			public const int pricetext = 2131429011;
+			
+			// aapt resource value: 0x7F0B0691
+			public const int priceText = 2131429009;
+			
+			// aapt resource value: 0x7F0B0692
+			public const int priceTextView = 2131429010;
 			
 			// aapt resource value: 0x7F0B0694
-			public const int privacyPost = 2131429012;
+			public const int primary = 2131429012;
+			
+			// aapt resource value: 0x7F0B0695
+			public const int privacyPost = 2131429013;
 			
 			// aapt resource value: 0x7F0B0177
 			public const int PrivacyText = 2131427703;
 			
-			// aapt resource value: 0x7F0B0696
-			public const int profileAvatar_image = 2131429014;
-			
 			// aapt resource value: 0x7F0B0697
-			public const int profileCover_image = 2131429015;
+			public const int profileAvatar_image = 2131429015;
 			
-			// aapt resource value: 0x7F0B069A
-			public const int profileimage_head = 2131429018;
+			// aapt resource value: 0x7F0B0698
+			public const int profileCover_image = 2131429016;
+			
+			// aapt resource value: 0x7F0B069B
+			public const int profileimage_head = 2131429019;
 			
 			// aapt resource value: 0x7F0B0178
 			public const int ProfilePictureMoreIcon = 2131427704;
@@ -28423,56 +28426,56 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0179
 			public const int ProfilePictureTextView = 2131427705;
 			
-			// aapt resource value: 0x7F0B0698
-			public const int profile_image = 2131429016;
-			
 			// aapt resource value: 0x7F0B0699
-			public const int profile_indicator = 2131429017;
+			public const int profile_image = 2131429017;
 			
-			// aapt resource value: 0x7F0B069B
-			public const int progress = 2131429019;
+			// aapt resource value: 0x7F0B069A
+			public const int profile_indicator = 2131429018;
 			
 			// aapt resource value: 0x7F0B069C
-			public const int progressBar = 2131429020;
+			public const int progress = 2131429020;
 			
 			// aapt resource value: 0x7F0B069D
-			public const int progressTextview = 2131429021;
+			public const int progressBar = 2131429021;
 			
 			// aapt resource value: 0x7F0B069E
-			public const int progress_bar = 2131429022;
+			public const int progressTextview = 2131429022;
 			
 			// aapt resource value: 0x7F0B069F
-			public const int progress_bar_as = 2131429023;
+			public const int progress_bar = 2131429023;
 			
 			// aapt resource value: 0x7F0B06A0
-			public const int progress_circular = 2131429024;
+			public const int progress_bar_as = 2131429024;
 			
 			// aapt resource value: 0x7F0B06A1
-			public const int progress_horizontal = 2131429025;
-			
-			// aapt resource value: 0x7F0B06A3
-			public const int promoteIcon = 2131429027;
-			
-			// aapt resource value: 0x7F0B06A4
-			public const int promoteLayout = 2131429028;
+			public const int progress_circular = 2131429025;
 			
 			// aapt resource value: 0x7F0B06A2
-			public const int promotText = 2131429026;
+			public const int progress_horizontal = 2131429026;
+			
+			// aapt resource value: 0x7F0B06A4
+			public const int promoteIcon = 2131429028;
 			
 			// aapt resource value: 0x7F0B06A5
-			public const int prop_detail_bathroom = 2131429029;
+			public const int promoteLayout = 2131429029;
+			
+			// aapt resource value: 0x7F0B06A3
+			public const int promotText = 2131429027;
 			
 			// aapt resource value: 0x7F0B06A6
-			public const int prop_detail_bedroom = 2131429030;
+			public const int prop_detail_bathroom = 2131429030;
 			
 			// aapt resource value: 0x7F0B06A7
-			public const int prop_detail_den = 2131429031;
-			
-			// aapt resource value: 0x7F0B0695
-			public const int proRecyler = 2131429013;
+			public const int prop_detail_bedroom = 2131429031;
 			
 			// aapt resource value: 0x7F0B06A8
-			public const int publishButton = 2131429032;
+			public const int prop_detail_den = 2131429032;
+			
+			// aapt resource value: 0x7F0B0696
+			public const int proRecyler = 2131429014;
+			
+			// aapt resource value: 0x7F0B06A9
+			public const int publishButton = 2131429033;
 			
 			// aapt resource value: 0x7F0B017A
 			public const int QualityButton = 2131427706;
@@ -28495,68 +28498,68 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0180
 			public const int QuestionTypeEditText = 2131427712;
 			
-			// aapt resource value: 0x7F0B06AA
-			public const int radio = 2131429034;
-			
 			// aapt resource value: 0x7F0B06AB
-			public const int radioDisable = 2131429035;
+			public const int radio = 2131429035;
 			
 			// aapt resource value: 0x7F0B06AC
-			public const int radioEnable = 2131429036;
+			public const int radioDisable = 2131429036;
 			
 			// aapt resource value: 0x7F0B06AD
-			public const int radioGroup = 2131429037;
+			public const int radioEnable = 2131429037;
 			
 			// aapt resource value: 0x7F0B06AE
-			public const int radioNew = 2131429038;
+			public const int radioGroup = 2131429038;
 			
 			// aapt resource value: 0x7F0B06AF
-			public const int radioNo = 2131429039;
+			public const int radioNew = 2131429039;
 			
 			// aapt resource value: 0x7F0B06B0
-			public const int radioPrivate = 2131429040;
+			public const int radioNo = 2131429040;
 			
 			// aapt resource value: 0x7F0B06B1
-			public const int radioPublic = 2131429041;
+			public const int radioPrivate = 2131429041;
 			
 			// aapt resource value: 0x7F0B06B2
-			public const int radioQuestion = 2131429042;
+			public const int radioPublic = 2131429042;
 			
 			// aapt resource value: 0x7F0B06B3
-			public const int radioUsed = 2131429043;
+			public const int radioQuestion = 2131429043;
 			
 			// aapt resource value: 0x7F0B06B4
-			public const int radioYes = 2131429044;
+			public const int radioUsed = 2131429044;
 			
 			// aapt resource value: 0x7F0B06B5
-			public const int raised = 2131429045;
+			public const int radioYes = 2131429045;
 			
 			// aapt resource value: 0x7F0B06B6
-			public const int rate = 2131429046;
-			
-			// aapt resource value: 0x7F0B06B8
-			public const int ratebutton1 = 2131429048;
-			
-			// aapt resource value: 0x7F0B06B9
-			public const int ratebutton2 = 2131429049;
-			
-			// aapt resource value: 0x7F0B06BA
-			public const int ratebutton3 = 2131429050;
-			
-			// aapt resource value: 0x7F0B06BB
-			public const int ratebutton4 = 2131429051;
-			
-			// aapt resource value: 0x7F0B06BC
-			public const int ratebutton5 = 2131429052;
-			
-			// aapt resource value: 0x7F0B06BD
-			public const int ratebuttonAll = 2131429053;
+			public const int raised = 2131429046;
 			
 			// aapt resource value: 0x7F0B06B7
-			public const int rateListLayout = 2131429047;
+			public const int rate = 2131429047;
+			
+			// aapt resource value: 0x7F0B06B9
+			public const int ratebutton1 = 2131429049;
+			
+			// aapt resource value: 0x7F0B06BA
+			public const int ratebutton2 = 2131429050;
+			
+			// aapt resource value: 0x7F0B06BB
+			public const int ratebutton3 = 2131429051;
+			
+			// aapt resource value: 0x7F0B06BC
+			public const int ratebutton4 = 2131429052;
+			
+			// aapt resource value: 0x7F0B06BD
+			public const int ratebutton5 = 2131429053;
 			
 			// aapt resource value: 0x7F0B06BE
-			public const int ratingBar = 2131429054;
+			public const int ratebuttonAll = 2131429054;
+			
+			// aapt resource value: 0x7F0B06B8
+			public const int rateListLayout = 2131429048;
+			
+			// aapt resource value: 0x7F0B06BF
+			public const int ratingBar = 2131429055;
 			
 			// aapt resource value: 0x7F0B0181
 			public const int RatingBar = 2131427713;
@@ -28564,23 +28567,23 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0182
 			public const int RatingCountText = 2131427714;
 			
-			// aapt resource value: 0x7F0B06BF
-			public const int ratingLayout = 2131429055;
+			// aapt resource value: 0x7F0B06C0
+			public const int ratingLayout = 2131429056;
 			
 			// aapt resource value: 0x7F0B0183
 			public const int RatingLinearLayout = 2131427715;
 			
-			// aapt resource value: 0x7F0B06C0
-			public const int ratingLiner = 2131429056;
+			// aapt resource value: 0x7F0B06C1
+			public const int ratingLiner = 2131429057;
 			
 			// aapt resource value: 0x7F0B0184
 			public const int RatingText = 2131427716;
 			
-			// aapt resource value: 0x7F0B06C1
-			public const int ratingtextview = 2131429057;
-			
 			// aapt resource value: 0x7F0B06C2
-			public const int ratio = 2131429058;
+			public const int ratingtextview = 2131429058;
+			
+			// aapt resource value: 0x7F0B06C3
+			public const int ratio = 2131429059;
 			
 			// aapt resource value: 0x7F0B0185
 			public const int ReactButton = 2131427717;
@@ -28591,47 +28594,47 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0186
 			public const int ReactingPointLayouts = 2131427718;
 			
-			// aapt resource value: 0x7F0B06C3
-			public const int reactLayout = 2131429059;
-			
 			// aapt resource value: 0x7F0B06C4
-			public const int readableBottomBar = 2131429060;
+			public const int reactLayout = 2131429060;
 			
 			// aapt resource value: 0x7F0B06C5
-			public const int recordLayout = 2131429061;
+			public const int readableBottomBar = 2131429061;
 			
 			// aapt resource value: 0x7F0B06C6
-			public const int rectangle = 2131429062;
+			public const int recordLayout = 2131429062;
 			
 			// aapt resource value: 0x7F0B06C7
-			public const int rectangles = 2131429063;
+			public const int rectangle = 2131429063;
 			
 			// aapt resource value: 0x7F0B06C8
-			public const int recycle = 2131429064;
+			public const int rectangles = 2131429064;
+			
+			// aapt resource value: 0x7F0B06C9
+			public const int recycle = 2131429065;
 			
 			// aapt resource value: 0x7F0B0188
 			public const int Recycler = 2131427720;
 			
-			// aapt resource value: 0x7F0B06C9
-			public const int recycler = 2131429065;
-			
 			// aapt resource value: 0x7F0B06CA
-			public const int recycler2 = 2131429066;
+			public const int recycler = 2131429066;
 			
 			// aapt resource value: 0x7F0B06CB
-			public const int recycler_view = 2131429067;
+			public const int recycler2 = 2131429067;
+			
+			// aapt resource value: 0x7F0B06CC
+			public const int recycler_view = 2131429068;
 			
 			// aapt resource value: 0x7F0B0189
 			public const int Recyler = 2131427721;
 			
-			// aapt resource value: 0x7F0B06CC
-			public const int recyler = 2131429068;
-			
 			// aapt resource value: 0x7F0B06CD
-			public const int recylerHiSuggetions = 2131429069;
+			public const int recyler = 2131429069;
 			
-			// aapt resource value: 0x7F0B06A9
-			public const int rEdittext = 2131429033;
+			// aapt resource value: 0x7F0B06CE
+			public const int recylerHiSuggetions = 2131429070;
+			
+			// aapt resource value: 0x7F0B06AA
+			public const int rEdittext = 2131429034;
 			
 			// aapt resource value: 0x7F0B018A
 			public const int RegisterButton = 2131427722;
@@ -28648,23 +28651,23 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B018E
 			public const int RelationshipTextView = 2131427726;
 			
-			// aapt resource value: 0x7F0B06CE
-			public const int relativeLayout1 = 2131429070;
-			
 			// aapt resource value: 0x7F0B06CF
-			public const int relative_layout_container = 2131429071;
+			public const int relativeLayout1 = 2131429071;
 			
 			// aapt resource value: 0x7F0B06D0
-			public const int remote_video_view_container = 2131429072;
+			public const int relative_layout_container = 2131429072;
+			
+			// aapt resource value: 0x7F0B06D1
+			public const int remote_video_view_container = 2131429073;
 			
 			// aapt resource value: 0x7F0B018F
 			public const int RepeatPasswordEditText = 2131427727;
 			
-			// aapt resource value: 0x7F0B06D1
-			public const int reply = 2131429073;
-			
 			// aapt resource value: 0x7F0B06D2
-			public const int replyCountTextview = 2131429074;
+			public const int reply = 2131429074;
+			
+			// aapt resource value: 0x7F0B06D3
+			public const int replyCountTextview = 2131429075;
 			
 			// aapt resource value: 0x7F0B0190
 			public const int RequestTextView = 2131427728;
@@ -28675,200 +28678,200 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0192
 			public const int Resetbutton = 2131427730;
 			
-			// aapt resource value: 0x7F0B06D3
-			public const int restart = 2131429075;
-			
 			// aapt resource value: 0x7F0B06D4
-			public const int restrictedIcon = 2131429076;
+			public const int restart = 2131429076;
 			
 			// aapt resource value: 0x7F0B06D5
-			public const int restrictedTextview = 2131429077;
+			public const int restrictedIcon = 2131429077;
 			
 			// aapt resource value: 0x7F0B06D6
-			public const int reverse = 2131429078;
+			public const int restrictedTextview = 2131429078;
 			
 			// aapt resource value: 0x7F0B06D7
-			public const int reverseSawtooth = 2131429079;
+			public const int reverse = 2131429079;
 			
 			// aapt resource value: 0x7F0B06D8
-			public const int review = 2131429080;
+			public const int reverseSawtooth = 2131429080;
+			
+			// aapt resource value: 0x7F0B06D9
+			public const int review = 2131429081;
 			
 			// aapt resource value: 0x7F0B0193
 			public const int ReviewEditText = 2131427731;
 			
-			// aapt resource value: 0x7F0B06D9
-			public const int right = 2131429081;
-			
 			// aapt resource value: 0x7F0B06DA
-			public const int right_icon = 2131429082;
+			public const int right = 2131429082;
 			
 			// aapt resource value: 0x7F0B06DB
-			public const int right_side = 2131429083;
+			public const int right_icon = 2131429083;
 			
 			// aapt resource value: 0x7F0B06DC
-			public const int rl_container = 2131429084;
+			public const int right_side = 2131429084;
 			
 			// aapt resource value: 0x7F0B06DD
-			public const int root = 2131429085;
+			public const int rl_container = 2131429085;
 			
 			// aapt resource value: 0x7F0B06DE
-			public const int rootChatWindowView = 2131429086;
+			public const int root = 2131429086;
 			
 			// aapt resource value: 0x7F0B06DF
-			public const int rootView = 2131429087;
+			public const int rootChatWindowView = 2131429087;
 			
 			// aapt resource value: 0x7F0B06E0
-			public const int rounded = 2131429088;
+			public const int rootView = 2131429088;
 			
 			// aapt resource value: 0x7F0B06E1
-			public const int row_content = 2131429089;
+			public const int rounded = 2131429089;
 			
 			// aapt resource value: 0x7F0B06E2
-			public const int row_header = 2131429090;
+			public const int row_content = 2131429090;
 			
 			// aapt resource value: 0x7F0B06E3
-			public const int row_header_description = 2131429091;
+			public const int row_header = 2131429091;
 			
 			// aapt resource value: 0x7F0B06E4
-			public const int rvEmoji = 2131429092;
+			public const int row_header_description = 2131429092;
 			
 			// aapt resource value: 0x7F0B06E5
-			public const int rv_shipping_methods_ssmw = 2131429093;
+			public const int rvEmoji = 2131429093;
 			
 			// aapt resource value: 0x7F0B06E6
-			public const int rzp_innerbox = 2131429094;
+			public const int rv_shipping_methods_ssmw = 2131429094;
 			
 			// aapt resource value: 0x7F0B06E7
-			public const int rzp_outerbox = 2131429095;
+			public const int rzp_innerbox = 2131429095;
 			
 			// aapt resource value: 0x7F0B06E8
-			public const int rzp_securedpayments = 2131429096;
+			public const int rzp_outerbox = 2131429096;
 			
 			// aapt resource value: 0x7F0B06E9
-			public const int rzp_theMainMagicView = 2131429097;
+			public const int rzp_securedpayments = 2131429097;
 			
 			// aapt resource value: 0x7F0B06EA
-			public const int salary = 2131429098;
+			public const int rzp_theMainMagicView = 2131429098;
+			
+			// aapt resource value: 0x7F0B06EB
+			public const int salary = 2131429099;
 			
 			// aapt resource value: 0x7F0B019A
 			public const int SalaryDateEditText = 2131427738;
 			
-			// aapt resource value: 0x7F0B06EB
-			public const int satellite = 2131429099;
+			// aapt resource value: 0x7F0B06EC
+			public const int satellite = 2131429100;
 			
 			// aapt resource value: 0x7F0B019B
 			public const int SaveButton = 2131427739;
 			
-			// aapt resource value: 0x7F0B06EC
-			public const int save_non_transition_alpha = 2131429100;
-			
 			// aapt resource value: 0x7F0B06ED
-			public const int save_overlay_view = 2131429101;
+			public const int save_non_transition_alpha = 2131429101;
 			
 			// aapt resource value: 0x7F0B06EE
-			public const int sawtooth = 2131429102;
+			public const int save_overlay_view = 2131429102;
+			
+			// aapt resource value: 0x7F0B06EF
+			public const int sawtooth = 2131429103;
 			
 			// aapt resource value: 0x7F0B019C
 			public const int SayHiLayout = 2131427740;
 			
-			// aapt resource value: 0x7F0B06EF
-			public const int scale = 2131429103;
-			
 			// aapt resource value: 0x7F0B06F0
-			public const int scale_frame = 2131429104;
+			public const int scale = 2131429104;
+			
+			// aapt resource value: 0x7F0B06F1
+			public const int scale_frame = 2131429105;
 			
 			// aapt resource value: 0x7F0B019D
 			public const int SchoolEditText = 2131427741;
 			
-			// aapt resource value: 0x7F0B06F1
-			public const int screen = 2131429105;
-			
 			// aapt resource value: 0x7F0B06F2
-			public const int scroll = 2131429106;
+			public const int screen = 2131429106;
 			
-			// aapt resource value: 0x7F0B06F7
-			public const int scrollable = 2131429111;
+			// aapt resource value: 0x7F0B06F3
+			public const int scroll = 2131429107;
+			
+			// aapt resource value: 0x7F0B06F8
+			public const int scrollable = 2131429112;
 			
 			// aapt resource value: 0x7F0B0194
 			public const int SCROLLER_ID = 2131427732;
 			
-			// aapt resource value: 0x7F0B06F3
-			public const int scrollIndicatorDown = 2131429107;
-			
 			// aapt resource value: 0x7F0B06F4
-			public const int scrollIndicatorUp = 2131429108;
+			public const int scrollIndicatorDown = 2131429108;
+			
+			// aapt resource value: 0x7F0B06F5
+			public const int scrollIndicatorUp = 2131429109;
 			
 			// aapt resource value: 0x7F0B019E
 			public const int ScrollView = 2131427742;
 			
-			// aapt resource value: 0x7F0B06F5
-			public const int scrollView = 2131429109;
-			
 			// aapt resource value: 0x7F0B06F6
-			public const int scroll_View = 2131429110;
+			public const int scrollView = 2131429110;
 			
-			// aapt resource value: 0x7F0B06F8
-			public const int searchBox = 2131429112;
+			// aapt resource value: 0x7F0B06F7
+			public const int scroll_View = 2131429111;
 			
 			// aapt resource value: 0x7F0B06F9
-			public const int searchButton = 2131429113;
+			public const int searchBox = 2131429113;
 			
 			// aapt resource value: 0x7F0B06FA
-			public const int searchForPostsLayout = 2131429114;
+			public const int searchButton = 2131429114;
+			
+			// aapt resource value: 0x7F0B06FB
+			public const int searchForPostsLayout = 2131429115;
 			
 			// aapt resource value: 0x7F0B019F
 			public const int Searchtabs = 2131427743;
 			
-			// aapt resource value: 0x7F0B06FB
-			public const int searchUserBar = 2131429115;
-			
 			// aapt resource value: 0x7F0B06FC
-			public const int searchView = 2131429116;
+			public const int searchUserBar = 2131429116;
+			
+			// aapt resource value: 0x7F0B06FD
+			public const int searchView = 2131429117;
 			
 			// aapt resource value: 0x7F0B01A0
 			public const int Searchviewpager = 2131427744;
 			
-			// aapt resource value: 0x7F0B06FD
-			public const int search_badge = 2131429117;
-			
 			// aapt resource value: 0x7F0B06FE
-			public const int search_bar = 2131429118;
+			public const int search_badge = 2131429118;
 			
 			// aapt resource value: 0x7F0B06FF
-			public const int search_button = 2131429119;
+			public const int search_bar = 2131429119;
 			
 			// aapt resource value: 0x7F0B0700
-			public const int search_close_btn = 2131429120;
+			public const int search_button = 2131429120;
 			
 			// aapt resource value: 0x7F0B0701
-			public const int search_edit_frame = 2131429121;
+			public const int search_close_btn = 2131429121;
 			
 			// aapt resource value: 0x7F0B0702
-			public const int search_go_btn = 2131429122;
+			public const int search_edit_frame = 2131429122;
 			
 			// aapt resource value: 0x7F0B0703
-			public const int search_mag_icon = 2131429123;
+			public const int search_go_btn = 2131429123;
 			
 			// aapt resource value: 0x7F0B0704
-			public const int search_orb = 2131429124;
+			public const int search_mag_icon = 2131429124;
 			
 			// aapt resource value: 0x7F0B0705
-			public const int search_plate = 2131429125;
+			public const int search_orb = 2131429125;
 			
 			// aapt resource value: 0x7F0B0706
-			public const int search_src_text = 2131429126;
+			public const int search_plate = 2131429126;
 			
 			// aapt resource value: 0x7F0B0707
-			public const int search_voice_btn = 2131429127;
+			public const int search_src_text = 2131429127;
 			
-			// aapt resource value: 0x7F0B070B
-			public const int secondary = 2131429131;
+			// aapt resource value: 0x7F0B0708
+			public const int search_voice_btn = 2131429128;
 			
 			// aapt resource value: 0x7F0B070C
-			public const int secondary_controls_dock = 2131429132;
+			public const int secondary = 2131429132;
 			
 			// aapt resource value: 0x7F0B070D
-			public const int seconderyText = 2131429133;
+			public const int secondary_controls_dock = 2131429133;
+			
+			// aapt resource value: 0x7F0B070E
+			public const int seconderyText = 2131429134;
 			
 			// aapt resource value: 0x7F0B01A1
 			public const int SecondReactionLinearLayout = 2131427745;
@@ -28876,86 +28879,86 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01A2
 			public const int SecondReactionText = 2131427746;
 			
-			// aapt resource value: 0x7F0B070A
-			public const int second_row_layout = 2131429130;
-			
-			// aapt resource value: 0x7F0B0708
-			public const int secPrivacyTextView = 2131429128;
+			// aapt resource value: 0x7F0B070B
+			public const int second_row_layout = 2131429131;
 			
 			// aapt resource value: 0x7F0B0709
-			public const int secTermTextView = 2131429129;
+			public const int secPrivacyTextView = 2131429129;
 			
-			// aapt resource value: 0x7F0B070E
-			public const int sectionProgress = 2131429134;
+			// aapt resource value: 0x7F0B070A
+			public const int secTermTextView = 2131429130;
 			
 			// aapt resource value: 0x7F0B070F
-			public const int section_name = 2131429135;
-			
-			// aapt resource value: 0x7F0B0711
-			public const int seekBar = 2131429137;
-			
-			// aapt resource value: 0x7F0B0714
-			public const int seekbar = 2131429140;
-			
-			// aapt resource value: 0x7F0B0715
-			public const int seekbarLayout = 2131429141;
-			
-			// aapt resource value: 0x7F0B0716
-			public const int seekbar_value = 2131429142;
-			
-			// aapt resource value: 0x7F0B0712
-			public const int seek_bar = 2131429138;
-			
-			// aapt resource value: 0x7F0B0713
-			public const int seek_bar_indicators = 2131429139;
-			
-			// aapt resource value: 0x7F0B0717
-			public const int seen = 2131429143;
+			public const int sectionProgress = 2131429135;
 			
 			// aapt resource value: 0x7F0B0710
-			public const int seePostButton = 2131429136;
+			public const int section_name = 2131429136;
 			
-			// aapt resource value: 0x7F0B071A
-			public const int selected = 2131429146;
+			// aapt resource value: 0x7F0B0712
+			public const int seekBar = 2131429138;
+			
+			// aapt resource value: 0x7F0B0715
+			public const int seekbar = 2131429141;
+			
+			// aapt resource value: 0x7F0B0716
+			public const int seekbarLayout = 2131429142;
+			
+			// aapt resource value: 0x7F0B0717
+			public const int seekbar_value = 2131429143;
+			
+			// aapt resource value: 0x7F0B0713
+			public const int seek_bar = 2131429139;
+			
+			// aapt resource value: 0x7F0B0714
+			public const int seek_bar_indicators = 2131429140;
 			
 			// aapt resource value: 0x7F0B0718
-			public const int select_dialog_listview = 2131429144;
+			public const int seen = 2131429144;
 			
-			// aapt resource value: 0x7F0B0719
-			public const int select_shipping_method_widget = 2131429145;
+			// aapt resource value: 0x7F0B0711
+			public const int seePostButton = 2131429137;
 			
 			// aapt resource value: 0x7F0B071B
-			public const int send = 2131429147;
+			public const int selected = 2131429147;
+			
+			// aapt resource value: 0x7F0B0719
+			public const int select_dialog_listview = 2131429145;
+			
+			// aapt resource value: 0x7F0B071A
+			public const int select_shipping_method_widget = 2131429146;
 			
 			// aapt resource value: 0x7F0B071C
-			public const int sendButton = 2131429148;
+			public const int send = 2131429148;
+			
+			// aapt resource value: 0x7F0B071D
+			public const int sendButton = 2131429149;
 			
 			// aapt resource value: 0x7F0B01A3
 			public const int SendButton = 2131427747;
 			
-			// aapt resource value: 0x7F0B071D
-			public const int sendEmojisIconButton = 2131429149;
-			
 			// aapt resource value: 0x7F0B071E
-			public const int sendMessageButton = 2131429150;
+			public const int sendEmojisIconButton = 2131429150;
 			
 			// aapt resource value: 0x7F0B071F
-			public const int sendRecordButton = 2131429151;
+			public const int sendMessageButton = 2131429151;
 			
 			// aapt resource value: 0x7F0B0720
-			public const int send_message_panel = 2131429152;
+			public const int sendRecordButton = 2131429152;
 			
 			// aapt resource value: 0x7F0B0721
-			public const int separate_time = 2131429153;
+			public const int send_message_panel = 2131429153;
 			
 			// aapt resource value: 0x7F0B0722
-			public const int separator = 2131429154;
+			public const int separate_time = 2131429154;
 			
 			// aapt resource value: 0x7F0B0723
-			public const int shadowLiner = 2131429155;
+			public const int separator = 2131429155;
 			
 			// aapt resource value: 0x7F0B0724
-			public const int share = 2131429156;
+			public const int shadowLiner = 2131429156;
+			
+			// aapt resource value: 0x7F0B0725
+			public const int share = 2131429157;
 			
 			// aapt resource value: 0x7F0B01A4
 			public const int ShareButton = 2131427748;
@@ -28984,32 +28987,32 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01AA
 			public const int ShareTimelineLayout = 2131427754;
 			
-			// aapt resource value: 0x7F0B0725
-			public const int share_btn = 2131429157;
+			// aapt resource value: 0x7F0B0726
+			public const int share_btn = 2131429158;
 			
 			// aapt resource value: 0x7F0B0195
 			public const int SHIFT = 2131427733;
 			
-			// aapt resource value: 0x7F0B0726
-			public const int shipping_flow_viewpager = 2131429158;
-			
 			// aapt resource value: 0x7F0B0727
-			public const int shipping_info_widget = 2131429159;
+			public const int shipping_flow_viewpager = 2131429159;
 			
 			// aapt resource value: 0x7F0B0728
-			public const int shortcut = 2131429160;
+			public const int shipping_info_widget = 2131429160;
 			
 			// aapt resource value: 0x7F0B0729
-			public const int showCustom = 2131429161;
+			public const int shortcut = 2131429161;
 			
 			// aapt resource value: 0x7F0B072A
-			public const int showHome = 2131429162;
+			public const int showCustom = 2131429162;
+			
+			// aapt resource value: 0x7F0B072B
+			public const int showHome = 2131429163;
 			
 			// aapt resource value: 0x7F0B01AD
 			public const int ShowProfile_button = 2131427757;
 			
-			// aapt resource value: 0x7F0B072B
-			public const int showTitle = 2131429163;
+			// aapt resource value: 0x7F0B072C
+			public const int showTitle = 2131429164;
 			
 			// aapt resource value: 0x7F0B0196
 			public const int SHOW_ALL = 2131427734;
@@ -29023,50 +29026,50 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01AE
 			public const int SignInButton = 2131427758;
 			
-			// aapt resource value: 0x7F0B072C
-			public const int signUpButton = 2131429164;
-			
 			// aapt resource value: 0x7F0B072D
-			public const int simpleViewAnimator = 2131429165;
+			public const int signUpButton = 2131429165;
 			
 			// aapt resource value: 0x7F0B072E
-			public const int sin = 2131429166;
+			public const int simpleViewAnimator = 2131429166;
 			
 			// aapt resource value: 0x7F0B072F
-			public const int sizefileText = 2131429167;
+			public const int sin = 2131429167;
 			
 			// aapt resource value: 0x7F0B0730
-			public const int skip = 2131429168;
+			public const int sizefileText = 2131429168;
 			
 			// aapt resource value: 0x7F0B0731
-			public const int skipCollapsed = 2131429169;
+			public const int skip = 2131429169;
 			
 			// aapt resource value: 0x7F0B0732
-			public const int slide = 2131429170;
+			public const int skipCollapsed = 2131429170;
 			
 			// aapt resource value: 0x7F0B0733
-			public const int sliding_layout = 2131429171;
+			public const int slide = 2131429171;
 			
 			// aapt resource value: 0x7F0B0734
-			public const int small = 2131429172;
+			public const int sliding_layout = 2131429172;
 			
 			// aapt resource value: 0x7F0B0735
-			public const int smallLabel = 2131429173;
+			public const int small = 2131429173;
 			
 			// aapt resource value: 0x7F0B0736
-			public const int snackbar_action = 2131429174;
+			public const int smallLabel = 2131429174;
 			
 			// aapt resource value: 0x7F0B0737
-			public const int snackbar_text = 2131429175;
+			public const int snackbar_action = 2131429175;
 			
 			// aapt resource value: 0x7F0B0738
-			public const int snap = 2131429176;
+			public const int snackbar_text = 2131429176;
 			
 			// aapt resource value: 0x7F0B0739
-			public const int snapMargins = 2131429177;
+			public const int snap = 2131429177;
 			
 			// aapt resource value: 0x7F0B073A
-			public const int socialLiner = 2131429178;
+			public const int snapMargins = 2131429178;
+			
+			// aapt resource value: 0x7F0B073B
+			public const int socialLiner = 2131429179;
 			
 			// aapt resource value: 0x7F0B01AF
 			public const int Social_Icon = 2131427759;
@@ -29074,182 +29077,182 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01B0
 			public const int Social_name = 2131427760;
 			
-			// aapt resource value: 0x7F0B073B
-			public const int software = 2131429179;
-			
 			// aapt resource value: 0x7F0B073C
-			public const int spacer = 2131429180;
+			public const int software = 2131429180;
 			
 			// aapt resource value: 0x7F0B073D
-			public const int speaker_audio_button = 2131429181;
+			public const int spacer = 2131429181;
 			
 			// aapt resource value: 0x7F0B073E
-			public const int spherical_gl_surface_view = 2131429182;
+			public const int speaker_audio_button = 2131429182;
 			
 			// aapt resource value: 0x7F0B073F
-			public const int spinner = 2131429183;
+			public const int spherical_gl_surface_view = 2131429183;
 			
 			// aapt resource value: 0x7F0B0740
-			public const int spline = 2131429184;
+			public const int spinner = 2131429184;
 			
 			// aapt resource value: 0x7F0B0741
-			public const int split_action_bar = 2131429185;
+			public const int spline = 2131429185;
 			
 			// aapt resource value: 0x7F0B0742
-			public const int sponsored = 2131429186;
+			public const int split_action_bar = 2131429186;
 			
 			// aapt resource value: 0x7F0B0743
-			public const int spread = 2131429187;
+			public const int sponsored = 2131429187;
 			
 			// aapt resource value: 0x7F0B0744
-			public const int spread_inside = 2131429188;
+			public const int spread = 2131429188;
 			
 			// aapt resource value: 0x7F0B0745
-			public const int square = 2131429189;
+			public const int spread_inside = 2131429189;
 			
 			// aapt resource value: 0x7F0B0746
-			public const int src_atop = 2131429190;
+			public const int square = 2131429190;
 			
 			// aapt resource value: 0x7F0B0747
-			public const int src_in = 2131429191;
+			public const int src_atop = 2131429191;
 			
 			// aapt resource value: 0x7F0B0748
-			public const int src_over = 2131429192;
+			public const int src_in = 2131429192;
 			
 			// aapt resource value: 0x7F0B0749
-			public const int standard = 2131429193;
+			public const int src_over = 2131429193;
 			
 			// aapt resource value: 0x7F0B074A
-			public const int star = 2131429194;
+			public const int standard = 2131429194;
 			
 			// aapt resource value: 0x7F0B074B
-			public const int star1Label = 2131429195;
+			public const int star = 2131429195;
+			
+			// aapt resource value: 0x7F0B074C
+			public const int star1Label = 2131429196;
 			
 			// aapt resource value: 0x7F0B01B8
 			public const int Star1Layout = 2131427768;
 			
-			// aapt resource value: 0x7F0B074C
-			public const int star1Progress = 2131429196;
-			
 			// aapt resource value: 0x7F0B074D
-			public const int star1TextView = 2131429197;
+			public const int star1Progress = 2131429197;
 			
 			// aapt resource value: 0x7F0B074E
-			public const int star2Label = 2131429198;
+			public const int star1TextView = 2131429198;
+			
+			// aapt resource value: 0x7F0B074F
+			public const int star2Label = 2131429199;
 			
 			// aapt resource value: 0x7F0B01B9
 			public const int Star2Layout = 2131427769;
 			
-			// aapt resource value: 0x7F0B074F
-			public const int star2Progress = 2131429199;
-			
 			// aapt resource value: 0x7F0B0750
-			public const int star2TextView = 2131429200;
+			public const int star2Progress = 2131429200;
 			
 			// aapt resource value: 0x7F0B0751
-			public const int star3Label = 2131429201;
+			public const int star2TextView = 2131429201;
+			
+			// aapt resource value: 0x7F0B0752
+			public const int star3Label = 2131429202;
 			
 			// aapt resource value: 0x7F0B01BA
 			public const int Star3Layout = 2131427770;
 			
-			// aapt resource value: 0x7F0B0752
-			public const int star3Progress = 2131429202;
-			
 			// aapt resource value: 0x7F0B0753
-			public const int star3TextView = 2131429203;
+			public const int star3Progress = 2131429203;
 			
 			// aapt resource value: 0x7F0B0754
-			public const int star4Label = 2131429204;
+			public const int star3TextView = 2131429204;
+			
+			// aapt resource value: 0x7F0B0755
+			public const int star4Label = 2131429205;
 			
 			// aapt resource value: 0x7F0B01BB
 			public const int Star4Layout = 2131427771;
 			
-			// aapt resource value: 0x7F0B0755
-			public const int star4Progress = 2131429205;
-			
 			// aapt resource value: 0x7F0B0756
-			public const int star4TextView = 2131429206;
+			public const int star4Progress = 2131429206;
 			
 			// aapt resource value: 0x7F0B0757
-			public const int star5Label = 2131429207;
+			public const int star4TextView = 2131429207;
+			
+			// aapt resource value: 0x7F0B0758
+			public const int star5Label = 2131429208;
 			
 			// aapt resource value: 0x7F0B01BC
 			public const int Star5Layout = 2131427772;
 			
-			// aapt resource value: 0x7F0B0758
-			public const int star5Progress = 2131429208;
-			
 			// aapt resource value: 0x7F0B0759
-			public const int star5TextView = 2131429209;
+			public const int star5Progress = 2131429209;
 			
 			// aapt resource value: 0x7F0B075A
-			public const int starIcon = 2131429210;
+			public const int star5TextView = 2131429210;
 			
 			// aapt resource value: 0x7F0B075B
-			public const int start = 2131429211;
+			public const int starIcon = 2131429211;
 			
 			// aapt resource value: 0x7F0B075C
-			public const int startDat = 2131429212;
+			public const int start = 2131429212;
+			
+			// aapt resource value: 0x7F0B075D
+			public const int startDat = 2131429213;
 			
 			// aapt resource value: 0x7F0B01BD
 			public const int StartDateEditText = 2131427773;
 			
-			// aapt resource value: 0x7F0B075D
-			public const int startDateText = 2131429213;
+			// aapt resource value: 0x7F0B075E
+			public const int startDateText = 2131429214;
 			
 			// aapt resource value: 0x7F0B01BE
 			public const int StartDateTextview = 2131427774;
 			
-			// aapt resource value: 0x7F0B075E
-			public const int startHorizontal = 2131429214;
+			// aapt resource value: 0x7F0B075F
+			public const int startHorizontal = 2131429215;
 			
 			// aapt resource value: 0x7F0B01BF
 			public const int StartIcondate = 2131427775;
 			
-			// aapt resource value: 0x7F0B075F
-			public const int startRecordButton = 2131429215;
+			// aapt resource value: 0x7F0B0760
+			public const int startRecordButton = 2131429216;
 			
 			// aapt resource value: 0x7F0B01C0
 			public const int StartTimeTextview = 2131427776;
 			
-			// aapt resource value: 0x7F0B0760
-			public const int startVertical = 2131429216;
-			
 			// aapt resource value: 0x7F0B0761
-			public const int start_text = 2131429217;
+			public const int startVertical = 2131429217;
 			
 			// aapt resource value: 0x7F0B0762
-			public const int start_text_container = 2131429218;
+			public const int start_text = 2131429218;
 			
 			// aapt resource value: 0x7F0B0763
-			public const int staticLayout = 2131429219;
+			public const int start_text_container = 2131429219;
 			
 			// aapt resource value: 0x7F0B0764
-			public const int staticPostLayout = 2131429220;
+			public const int staticLayout = 2131429220;
+			
+			// aapt resource value: 0x7F0B0765
+			public const int staticPostLayout = 2131429221;
 			
 			// aapt resource value: 0x7F0B01C1
 			public const int StatusMoreIcon = 2131427777;
 			
-			// aapt resource value: 0x7F0B0765
-			public const int statusText = 2131429221;
+			// aapt resource value: 0x7F0B0766
+			public const int statusText = 2131429222;
 			
 			// aapt resource value: 0x7F0B01C2
 			public const int StatusTextView = 2131427778;
 			
-			// aapt resource value: 0x7F0B0766
-			public const int status_bar_latest_event_content = 2131429222;
-			
 			// aapt resource value: 0x7F0B0767
-			public const int status_text = 2131429223;
+			public const int status_bar_latest_event_content = 2131429223;
 			
 			// aapt resource value: 0x7F0B0768
-			public const int stickerButton = 2131429224;
+			public const int status_text = 2131429224;
 			
 			// aapt resource value: 0x7F0B0769
-			public const int stickerImage = 2131429225;
+			public const int stickerButton = 2131429225;
 			
 			// aapt resource value: 0x7F0B076A
-			public const int stickerRecyler1 = 2131429226;
+			public const int stickerImage = 2131429226;
+			
+			// aapt resource value: 0x7F0B076B
+			public const int stickerRecyler1 = 2131429227;
 			
 			// aapt resource value: 0x7F0B01B1
 			public const int StImage1 = 2131427761;
@@ -29263,59 +29266,59 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01B4
 			public const int StImage4 = 2131427764;
 			
-			// aapt resource value: 0x7F0B076B
-			public const int stop = 2131429227;
-			
 			// aapt resource value: 0x7F0B076C
-			public const int stories = 2131429228;
-			
-			// aapt resource value: 0x7F0B076E
-			public const int storyaboutLayout = 2131429230;
-			
-			// aapt resource value: 0x7F0B076F
-			public const int storyaboutText = 2131429231;
+			public const int stop = 2131429228;
 			
 			// aapt resource value: 0x7F0B076D
-			public const int storyDisplay = 2131429229;
+			public const int stories = 2131429229;
 			
-			// aapt resource value: 0x7F0B0775
-			public const int streamerReady_header = 2131429237;
-			
-			// aapt resource value: 0x7F0B0776
-			public const int streamerReady_progress = 2131429238;
-			
-			// aapt resource value: 0x7F0B0777
-			public const int streamerReady_root = 2131429239;
+			// aapt resource value: 0x7F0B076F
+			public const int storyaboutLayout = 2131429231;
 			
 			// aapt resource value: 0x7F0B0770
-			public const int streamLoadingProgress_backgroundAvatar = 2131429232;
+			public const int storyaboutText = 2131429232;
 			
-			// aapt resource value: 0x7F0B0771
-			public const int streamLoadingProgress_dimOverlay = 2131429233;
+			// aapt resource value: 0x7F0B076E
+			public const int storyDisplay = 2131429230;
 			
-			// aapt resource value: 0x7F0B0772
-			public const int streamLoadingProgress_foregroundAvatar = 2131429234;
+			// aapt resource value: 0x7F0B0776
+			public const int streamerReady_header = 2131429238;
 			
-			// aapt resource value: 0x7F0B0773
-			public const int streamLoadingProgress_message = 2131429235;
-			
-			// aapt resource value: 0x7F0B0774
-			public const int streamMessage_parent = 2131429236;
+			// aapt resource value: 0x7F0B0777
+			public const int streamerReady_progress = 2131429239;
 			
 			// aapt resource value: 0x7F0B0778
-			public const int stretch = 2131429240;
+			public const int streamerReady_root = 2131429240;
+			
+			// aapt resource value: 0x7F0B0771
+			public const int streamLoadingProgress_backgroundAvatar = 2131429233;
+			
+			// aapt resource value: 0x7F0B0772
+			public const int streamLoadingProgress_dimOverlay = 2131429234;
+			
+			// aapt resource value: 0x7F0B0773
+			public const int streamLoadingProgress_foregroundAvatar = 2131429235;
+			
+			// aapt resource value: 0x7F0B0774
+			public const int streamLoadingProgress_message = 2131429236;
+			
+			// aapt resource value: 0x7F0B0775
+			public const int streamMessage_parent = 2131429237;
 			
 			// aapt resource value: 0x7F0B0779
-			public const int stubViewCatGroup = 2131429241;
+			public const int stretch = 2131429241;
 			
 			// aapt resource value: 0x7F0B077A
-			public const int stubViewRandomGroup = 2131429242;
+			public const int stubViewCatGroup = 2131429242;
 			
 			// aapt resource value: 0x7F0B077B
-			public const int stubViewSuggestedGroup = 2131429243;
+			public const int stubViewRandomGroup = 2131429243;
 			
 			// aapt resource value: 0x7F0B077C
-			public const int stub_import = 2131429244;
+			public const int stubViewSuggestedGroup = 2131429244;
+			
+			// aapt resource value: 0x7F0B077D
+			public const int stub_import = 2131429245;
 			
 			// aapt resource value: 0x7F0B01C3
 			public const int StudyText = 2131427779;
@@ -29332,134 +29335,134 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01C4
 			public const int SubCategoriesEditText = 2131427780;
 			
-			// aapt resource value: 0x7F0B0785
-			public const int submenuarrow = 2131429253;
-			
 			// aapt resource value: 0x7F0B0786
-			public const int submitButton = 2131429254;
+			public const int submenuarrow = 2131429254;
 			
 			// aapt resource value: 0x7F0B0787
-			public const int submit_area = 2131429255;
-			
-			// aapt resource value: 0x7F0B077D
-			public const int subText = 2131429245;
+			public const int submitButton = 2131429255;
 			
 			// aapt resource value: 0x7F0B0788
-			public const int subtitile = 2131429256;
+			public const int submit_area = 2131429256;
 			
 			// aapt resource value: 0x7F0B077E
-			public const int subTitle = 2131429246;
+			public const int subText = 2131429246;
 			
 			// aapt resource value: 0x7F0B0789
-			public const int subtitle = 2131429257;
+			public const int subtitile = 2131429257;
 			
 			// aapt resource value: 0x7F0B077F
-			public const int subTitle1 = 2131429247;
-			
-			// aapt resource value: 0x7F0B0780
-			public const int subTitle2 = 2131429248;
+			public const int subTitle = 2131429247;
 			
 			// aapt resource value: 0x7F0B078A
-			public const int subtitle_view = 2131429258;
+			public const int subtitle = 2131429258;
+			
+			// aapt resource value: 0x7F0B0780
+			public const int subTitle1 = 2131429248;
 			
 			// aapt resource value: 0x7F0B0781
-			public const int subView = 2131429249;
-			
-			// aapt resource value: 0x7F0B0782
-			public const int subViewQuestionOne = 2131429250;
-			
-			// aapt resource value: 0x7F0B0783
-			public const int subViewQuestionThree = 2131429251;
-			
-			// aapt resource value: 0x7F0B0784
-			public const int subViewQuestionTwo = 2131429252;
+			public const int subTitle2 = 2131429249;
 			
 			// aapt resource value: 0x7F0B078B
-			public const int surface_view = 2131429259;
+			public const int subtitle_view = 2131429259;
+			
+			// aapt resource value: 0x7F0B0782
+			public const int subView = 2131429250;
+			
+			// aapt resource value: 0x7F0B0783
+			public const int subViewQuestionOne = 2131429251;
+			
+			// aapt resource value: 0x7F0B0784
+			public const int subViewQuestionThree = 2131429252;
+			
+			// aapt resource value: 0x7F0B0785
+			public const int subViewQuestionTwo = 2131429253;
+			
+			// aapt resource value: 0x7F0B078C
+			public const int surface_view = 2131429260;
 			
 			// aapt resource value: 0x7F0B01C5
 			public const int SwiftCodeEditText = 2131427781;
 			
-			// aapt resource value: 0x7F0B078C
-			public const int swipeRefreshLayout = 2131429260;
-			
 			// aapt resource value: 0x7F0B078D
-			public const int switchWidget = 2131429261;
+			public const int swipeRefreshLayout = 2131429261;
 			
 			// aapt resource value: 0x7F0B078E
-			public const int switch_cam_button = 2131429262;
+			public const int switchWidget = 2131429262;
+			
+			// aapt resource value: 0x7F0B078F
+			public const int switch_cam_button = 2131429263;
 			
 			// aapt resource value: 0x7F0B0199
 			public const int SYM = 2131427737;
 			
-			// aapt resource value: 0x7F0B078F
-			public const int tabMode = 2131429263;
-			
-			// aapt resource value: 0x7F0B0791
-			public const int tabs = 2131429265;
+			// aapt resource value: 0x7F0B0790
+			public const int tabMode = 2131429264;
 			
 			// aapt resource value: 0x7F0B0792
-			public const int tabsLayout = 2131429266;
+			public const int tabs = 2131429266;
 			
 			// aapt resource value: 0x7F0B0793
-			public const int tabsSticker = 2131429267;
-			
-			// aapt resource value: 0x7F0B0790
-			public const int tab_host = 2131429264;
+			public const int tabsLayout = 2131429267;
 			
 			// aapt resource value: 0x7F0B0794
-			public const int tagIcon = 2131429268;
+			public const int tabsSticker = 2131429268;
+			
+			// aapt resource value: 0x7F0B0791
+			public const int tab_host = 2131429265;
+			
+			// aapt resource value: 0x7F0B0795
+			public const int tagIcon = 2131429269;
 			
 			// aapt resource value: 0x7F0B01C8
 			public const int TagIcon = 2131427784;
 			
-			// aapt resource value: 0x7F0B0795
-			public const int tag_accessibility_actions = 2131429269;
-			
 			// aapt resource value: 0x7F0B0796
-			public const int tag_accessibility_clickable_spans = 2131429270;
+			public const int tag_accessibility_actions = 2131429270;
 			
 			// aapt resource value: 0x7F0B0797
-			public const int tag_accessibility_heading = 2131429271;
+			public const int tag_accessibility_clickable_spans = 2131429271;
 			
 			// aapt resource value: 0x7F0B0798
-			public const int tag_accessibility_pane_title = 2131429272;
+			public const int tag_accessibility_heading = 2131429272;
 			
 			// aapt resource value: 0x7F0B0799
-			public const int tag_screen_reader_focusable = 2131429273;
+			public const int tag_accessibility_pane_title = 2131429273;
 			
 			// aapt resource value: 0x7F0B079A
-			public const int tag_transition_group = 2131429274;
+			public const int tag_screen_reader_focusable = 2131429274;
 			
 			// aapt resource value: 0x7F0B079B
-			public const int tag_unhandled_key_event_manager = 2131429275;
+			public const int tag_transition_group = 2131429275;
 			
 			// aapt resource value: 0x7F0B079C
-			public const int tag_unhandled_key_listeners = 2131429276;
+			public const int tag_unhandled_key_event_manager = 2131429276;
 			
 			// aapt resource value: 0x7F0B079D
-			public const int termCheckBox = 2131429277;
+			public const int tag_unhandled_key_listeners = 2131429277;
 			
 			// aapt resource value: 0x7F0B079E
-			public const int terrain = 2131429278;
+			public const int termCheckBox = 2131429278;
 			
 			// aapt resource value: 0x7F0B079F
-			public const int test_checkbox_android_button_tint = 2131429279;
+			public const int terrain = 2131429279;
 			
 			// aapt resource value: 0x7F0B07A0
-			public const int test_checkbox_app_button_tint = 2131429280;
+			public const int test_checkbox_android_button_tint = 2131429280;
 			
 			// aapt resource value: 0x7F0B07A1
-			public const int text = 2131429281;
+			public const int test_checkbox_app_button_tint = 2131429281;
 			
 			// aapt resource value: 0x7F0B07A2
-			public const int text2 = 2131429282;
+			public const int text = 2131429282;
+			
+			// aapt resource value: 0x7F0B07A3
+			public const int text2 = 2131429283;
 			
 			// aapt resource value: 0x7F0B01C9
 			public const int TextAddWallet = 2131427785;
 			
-			// aapt resource value: 0x7F0B07A3
-			public const int textCategories = 2131429283;
+			// aapt resource value: 0x7F0B07A4
+			public const int textCategories = 2131429284;
 			
 			// aapt resource value: 0x7F0B01CA
 			public const int TextCommentsPoint = 2131427786;
@@ -29470,32 +29473,32 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01CC
 			public const int TextCreatePostPoint = 2131427788;
 			
-			// aapt resource value: 0x7F0B07A4
-			public const int textEmpty = 2131429284;
-			
 			// aapt resource value: 0x7F0B07A5
-			public const int textEnd = 2131429285;
+			public const int textEmpty = 2131429285;
 			
 			// aapt resource value: 0x7F0B07A6
-			public const int textInfo = 2131429286;
-			
-			// aapt resource value: 0x7F0B07BB
-			public const int textinput_counter = 2131429307;
-			
-			// aapt resource value: 0x7F0B07BC
-			public const int textinput_error = 2131429308;
-			
-			// aapt resource value: 0x7F0B07BD
-			public const int textinput_helper_text = 2131429309;
+			public const int textEnd = 2131429286;
 			
 			// aapt resource value: 0x7F0B07A7
-			public const int textJobType = 2131429287;
+			public const int textInfo = 2131429287;
+			
+			// aapt resource value: 0x7F0B07BC
+			public const int textinput_counter = 2131429308;
+			
+			// aapt resource value: 0x7F0B07BD
+			public const int textinput_error = 2131429309;
 			
 			// aapt resource value: 0x7F0B07BE
-			public const int textloc = 2131429310;
+			public const int textinput_helper_text = 2131429310;
 			
 			// aapt resource value: 0x7F0B07A8
-			public const int textMore = 2131429288;
+			public const int textJobType = 2131429288;
+			
+			// aapt resource value: 0x7F0B07BF
+			public const int textloc = 2131429311;
+			
+			// aapt resource value: 0x7F0B07A9
+			public const int textMore = 2131429289;
 			
 			// aapt resource value: 0x7F0B01CD
 			public const int TextNumber1 = 2131427789;
@@ -29503,113 +29506,113 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01CE
 			public const int TextReactingPoint = 2131427790;
 			
-			// aapt resource value: 0x7F0B07A9
-			public const int textRelationship = 2131429289;
-			
 			// aapt resource value: 0x7F0B07AA
-			public const int textSecondery = 2131429290;
+			public const int textRelationship = 2131429290;
 			
 			// aapt resource value: 0x7F0B07AB
-			public const int textSpacerNoButtons = 2131429291;
+			public const int textSecondery = 2131429291;
 			
 			// aapt resource value: 0x7F0B07AC
-			public const int textSpacerNoTitle = 2131429292;
+			public const int textSpacerNoButtons = 2131429292;
 			
 			// aapt resource value: 0x7F0B07AD
-			public const int textStart = 2131429293;
+			public const int textSpacerNoTitle = 2131429293;
 			
 			// aapt resource value: 0x7F0B07AE
-			public const int textStatus = 2131429294;
+			public const int textStart = 2131429294;
 			
 			// aapt resource value: 0x7F0B07AF
-			public const int textTitileVerified = 2131429295;
+			public const int textStatus = 2131429295;
 			
 			// aapt resource value: 0x7F0B07B0
-			public const int textTitle = 2131429296;
-			
-			// aapt resource value: 0x7F0B07BF
-			public const int texture_view = 2131429311;
+			public const int textTitileVerified = 2131429296;
 			
 			// aapt resource value: 0x7F0B07B1
-			public const int textVerified = 2131429297;
-			
-			// aapt resource value: 0x7F0B07B2
-			public const int textView = 2131429298;
-			
-			// aapt resource value: 0x7F0B07B3
-			public const int textView1 = 2131429299;
-			
-			// aapt resource value: 0x7F0B07B4
-			public const int textView2 = 2131429300;
-			
-			// aapt resource value: 0x7F0B07B5
-			public const int textViewStatus = 2131429301;
-			
-			// aapt resource value: 0x7F0B07B6
-			public const int text_app_name = 2131429302;
-			
-			// aapt resource value: 0x7F0B07B7
-			public const int text_input = 2131429303;
-			
-			// aapt resource value: 0x7F0B07B8
-			public const int text_input_end_icon = 2131429304;
-			
-			// aapt resource value: 0x7F0B07B9
-			public const int text_input_start_icon = 2131429305;
-			
-			// aapt resource value: 0x7F0B07BA
-			public const int text_list_view = 2131429306;
+			public const int textTitle = 2131429297;
 			
 			// aapt resource value: 0x7F0B07C0
-			public const int thumbnail = 2131429312;
+			public const int texture_view = 2131429312;
+			
+			// aapt resource value: 0x7F0B07B2
+			public const int textVerified = 2131429298;
+			
+			// aapt resource value: 0x7F0B07B3
+			public const int textView = 2131429299;
+			
+			// aapt resource value: 0x7F0B07B4
+			public const int textView1 = 2131429300;
+			
+			// aapt resource value: 0x7F0B07B5
+			public const int textView2 = 2131429301;
+			
+			// aapt resource value: 0x7F0B07B6
+			public const int textViewStatus = 2131429302;
+			
+			// aapt resource value: 0x7F0B07B7
+			public const int text_app_name = 2131429303;
+			
+			// aapt resource value: 0x7F0B07B8
+			public const int text_input = 2131429304;
+			
+			// aapt resource value: 0x7F0B07B9
+			public const int text_input_end_icon = 2131429305;
+			
+			// aapt resource value: 0x7F0B07BA
+			public const int text_input_start_icon = 2131429306;
+			
+			// aapt resource value: 0x7F0B07BB
+			public const int text_list_view = 2131429307;
 			
 			// aapt resource value: 0x7F0B07C1
-			public const int thumbs_row = 2131429313;
+			public const int thumbnail = 2131429313;
 			
 			// aapt resource value: 0x7F0B07C2
-			public const int time = 2131429314;
+			public const int thumbs_row = 2131429314;
+			
+			// aapt resource value: 0x7F0B07C3
+			public const int time = 2131429315;
 			
 			// aapt resource value: 0x7F0B01CF
 			public const int Time = 2131427791;
 			
-			// aapt resource value: 0x7F0B07C3
-			public const int timeDelivered = 2131429315;
+			// aapt resource value: 0x7F0B07C4
+			public const int timeDelivered = 2131429316;
 			
-			// aapt resource value: 0x7F0B07C9
-			public const int timedonation = 2131429321;
+			// aapt resource value: 0x7F0B07CA
+			public const int timedonation = 2131429322;
 			
 			// aapt resource value: 0x7F0B01D0
 			public const int TimeEditText = 2131427792;
 			
-			// aapt resource value: 0x7F0B07C4
-			public const int timeIcon = 2131429316;
-			
 			// aapt resource value: 0x7F0B07C5
-			public const int timeRead = 2131429317;
+			public const int timeIcon = 2131429317;
 			
 			// aapt resource value: 0x7F0B07C6
-			public const int timeText = 2131429318;
+			public const int timeRead = 2131429318;
+			
+			// aapt resource value: 0x7F0B07C7
+			public const int timeText = 2131429319;
 			
 			// aapt resource value: 0x7F0B01D1
 			public const int TimeText = 2131427793;
 			
-			// aapt resource value: 0x7F0B07C7
-			public const int timeVoice = 2131429319;
-			
 			// aapt resource value: 0x7F0B07C8
-			public const int time_text = 2131429320;
+			public const int timeVoice = 2131429320;
 			
-			// aapt resource value: 0x7F0B07CA
-			public const int titile = 2131429322;
+			// aapt resource value: 0x7F0B07C9
+			public const int time_text = 2131429321;
+			
+			// aapt resource value: 0x7F0B07CB
+			public const int titile = 2131429323;
 			
 			// aapt resource value: 0x7F0B01D2
 			public const int Title = 2131427794;
 			
-			// aapt resource value: 0x7F0B07CB
-			public const int title = 2131429323;
-			
 			// aapt resource value: 0x7F0B07CC
-			public const int titleDividerNoCustom = 2131429324;
+			public const int title = 2131429324;
+			
+			// aapt resource value: 0x7F0B07CD
+			public const int titleDividerNoCustom = 2131429325;
 			
 			// aapt resource value: 0x7F0B01D3
 			public const int TitleEditText = 2131427795;
@@ -29617,101 +29620,101 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01D4
 			public const int TitleLayout = 2131427796;
 			
-			// aapt resource value: 0x7F0B07D4
-			public const int titlepage = 2131429332;
-			
-			// aapt resource value: 0x7F0B07CD
-			public const int titleTextView = 2131429325;
+			// aapt resource value: 0x7F0B07D5
+			public const int titlepage = 2131429333;
 			
 			// aapt resource value: 0x7F0B07CE
-			public const int title_badge = 2131429326;
+			public const int titleTextView = 2131429326;
 			
 			// aapt resource value: 0x7F0B07CF
-			public const int title_orb = 2131429327;
+			public const int title_badge = 2131429327;
 			
 			// aapt resource value: 0x7F0B07D0
-			public const int title_pic_s03 = 2131429328;
+			public const int title_orb = 2131429328;
 			
 			// aapt resource value: 0x7F0B07D1
-			public const int title_template = 2131429329;
+			public const int title_pic_s03 = 2131429329;
 			
 			// aapt resource value: 0x7F0B07D2
-			public const int title_text = 2131429330;
+			public const int title_template = 2131429330;
 			
 			// aapt resource value: 0x7F0B07D3
-			public const int title_view = 2131429331;
+			public const int title_text = 2131429331;
 			
-			// aapt resource value: 0x7F0B07D9
-			public const int tl_address_line1_aaw = 2131429337;
+			// aapt resource value: 0x7F0B07D4
+			public const int title_view = 2131429332;
 			
 			// aapt resource value: 0x7F0B07DA
-			public const int tl_address_line2_aaw = 2131429338;
-			
-			// aapt resource value: 0x7F0B07D5
-			public const int tl_add_source_card_number_ml = 2131429333;
-			
-			// aapt resource value: 0x7F0B07D6
-			public const int tl_add_source_cvc_ml = 2131429334;
-			
-			// aapt resource value: 0x7F0B07D7
-			public const int tl_add_source_expiry_ml = 2131429335;
-			
-			// aapt resource value: 0x7F0B07D8
-			public const int tl_add_source_postal_ml = 2131429336;
+			public const int tl_address_line1_aaw = 2131429338;
 			
 			// aapt resource value: 0x7F0B07DB
-			public const int tl_city_aaw = 2131429339;
+			public const int tl_address_line2_aaw = 2131429339;
+			
+			// aapt resource value: 0x7F0B07D6
+			public const int tl_add_source_card_number_ml = 2131429334;
+			
+			// aapt resource value: 0x7F0B07D7
+			public const int tl_add_source_cvc_ml = 2131429335;
+			
+			// aapt resource value: 0x7F0B07D8
+			public const int tl_add_source_expiry_ml = 2131429336;
+			
+			// aapt resource value: 0x7F0B07D9
+			public const int tl_add_source_postal_ml = 2131429337;
 			
 			// aapt resource value: 0x7F0B07DC
-			public const int tl_country_cat = 2131429340;
+			public const int tl_city_aaw = 2131429340;
 			
 			// aapt resource value: 0x7F0B07DD
-			public const int tl_name_aaw = 2131429341;
+			public const int tl_country_cat = 2131429341;
 			
 			// aapt resource value: 0x7F0B07DE
-			public const int tl_phone_number_aaw = 2131429342;
+			public const int tl_name_aaw = 2131429342;
 			
 			// aapt resource value: 0x7F0B07DF
-			public const int tl_postal_code_aaw = 2131429343;
+			public const int tl_phone_number_aaw = 2131429343;
 			
 			// aapt resource value: 0x7F0B07E0
-			public const int tl_state_aaw = 2131429344;
+			public const int tl_postal_code_aaw = 2131429344;
+			
+			// aapt resource value: 0x7F0B07E1
+			public const int tl_state_aaw = 2131429345;
 			
 			// aapt resource value: 0x7F0B01D5
 			public const int ToDateEditText = 2131427797;
 			
-			// aapt resource value: 0x7F0B07E2
-			public const int toggle = 2131429346;
-			
 			// aapt resource value: 0x7F0B07E3
-			public const int togglebutton = 2131429347;
+			public const int toggle = 2131429347;
 			
 			// aapt resource value: 0x7F0B07E4
-			public const int toolbar = 2131429348;
+			public const int togglebutton = 2131429348;
 			
 			// aapt resource value: 0x7F0B07E5
-			public const int toolbar_as = 2131429349;
+			public const int toolbar = 2131429349;
 			
 			// aapt resource value: 0x7F0B07E6
-			public const int toolbar_close = 2131429350;
+			public const int toolbar_as = 2131429350;
 			
 			// aapt resource value: 0x7F0B07E7
-			public const int toolbar_title = 2131429351;
+			public const int toolbar_close = 2131429351;
 			
 			// aapt resource value: 0x7F0B07E8
-			public const int tooltip = 2131429352;
+			public const int toolbar_title = 2131429352;
 			
 			// aapt resource value: 0x7F0B07E9
-			public const int tooltip_container = 2131429353;
+			public const int tooltip = 2131429353;
 			
 			// aapt resource value: 0x7F0B07EA
-			public const int top = 2131429354;
+			public const int tooltip_container = 2131429354;
+			
+			// aapt resource value: 0x7F0B07EB
+			public const int top = 2131429355;
 			
 			// aapt resource value: 0x7F0B01D6
 			public const int TopFragmentHolder = 2131427798;
 			
-			// aapt resource value: 0x7F0B07EB
-			public const int topPanel = 2131429355;
+			// aapt resource value: 0x7F0B07EC
+			public const int topPanel = 2131429356;
 			
 			// aapt resource value: 0x7F0B01C6
 			public const int TOP_END = 2131427782;
@@ -29719,149 +29722,149 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01C7
 			public const int TOP_START = 2131427783;
 			
-			// aapt resource value: 0x7F0B07EC
-			public const int total_time = 2131429356;
+			// aapt resource value: 0x7F0B07ED
+			public const int total_time = 2131429357;
 			
 			// aapt resource value: 0x7F0B01D7
 			public const int TottalAmount = 2131427799;
 			
-			// aapt resource value: 0x7F0B07ED
-			public const int touch_outside = 2131429357;
-			
-			// aapt resource value: 0x7F0B07E1
-			public const int toUserText = 2131429345;
-			
 			// aapt resource value: 0x7F0B07EE
-			public const int track_name_text_view = 2131429358;
+			public const int touch_outside = 2131429358;
+			
+			// aapt resource value: 0x7F0B07E2
+			public const int toUserText = 2131429346;
 			
 			// aapt resource value: 0x7F0B07EF
-			public const int transitionPosition = 2131429359;
+			public const int track_name_text_view = 2131429359;
 			
 			// aapt resource value: 0x7F0B07F0
-			public const int transitionToEnd = 2131429360;
+			public const int transitionPosition = 2131429360;
 			
 			// aapt resource value: 0x7F0B07F1
-			public const int transitionToStart = 2131429361;
+			public const int transitionToEnd = 2131429361;
 			
 			// aapt resource value: 0x7F0B07F2
-			public const int transition_current_scene = 2131429362;
+			public const int transitionToStart = 2131429362;
 			
 			// aapt resource value: 0x7F0B07F3
-			public const int transition_layout_save = 2131429363;
+			public const int transition_current_scene = 2131429363;
 			
 			// aapt resource value: 0x7F0B07F4
-			public const int transition_position = 2131429364;
+			public const int transition_layout_save = 2131429364;
 			
 			// aapt resource value: 0x7F0B07F5
-			public const int transition_scene_layoutid_cache = 2131429365;
+			public const int transition_position = 2131429365;
 			
 			// aapt resource value: 0x7F0B07F6
-			public const int transition_transform = 2131429366;
+			public const int transition_scene_layoutid_cache = 2131429366;
 			
 			// aapt resource value: 0x7F0B07F7
-			public const int transport_row = 2131429367;
+			public const int transition_transform = 2131429367;
 			
 			// aapt resource value: 0x7F0B07F8
-			public const int triangle = 2131429368;
+			public const int transport_row = 2131429368;
 			
 			// aapt resource value: 0x7F0B07F9
-			public const int tvCreateAccount = 2131429369;
+			public const int triangle = 2131429369;
 			
 			// aapt resource value: 0x7F0B07FA
-			public const int tvDelivered = 2131429370;
+			public const int tvCreateAccount = 2131429370;
 			
 			// aapt resource value: 0x7F0B07FB
-			public const int tvForgotPwd = 2131429371;
+			public const int tvDelivered = 2131429371;
 			
 			// aapt resource value: 0x7F0B07FC
-			public const int tvName_ptwo = 2131429372;
+			public const int tvForgotPwd = 2131429372;
 			
 			// aapt resource value: 0x7F0B07FD
-			public const int tvNiceArtText = 2131429373;
+			public const int tvName_ptwo = 2131429373;
 			
 			// aapt resource value: 0x7F0B07FE
-			public const int tvRead = 2131429374;
+			public const int tvNiceArtText = 2131429374;
 			
 			// aapt resource value: 0x7F0B07FF
-			public const int tvSignIn = 2131429375;
+			public const int tvRead = 2131429375;
 			
 			// aapt resource value: 0x7F0B0800
-			public const int tvSignUp = 2131429376;
-			
-			// aapt resource value: 0x7F0B0806
-			public const int tv_about = 2131429382;
-			
-			// aapt resource value: 0x7F0B0807
-			public const int tv_aboutdescUser = 2131429383;
-			
-			// aapt resource value: 0x7F0B0808
-			public const int tv_add_source_error = 2131429384;
-			
-			// aapt resource value: 0x7F0B0809
-			public const int tv_amount_smv = 2131429385;
-			
-			// aapt resource value: 0x7F0B080A
-			public const int tv_count = 2131429386;
-			
-			// aapt resource value: 0x7F0B080B
-			public const int tv_description = 2131429387;
-			
-			// aapt resource value: 0x7F0B080C
-			public const int tv_detail_smv = 2131429388;
+			public const int tvSignIn = 2131429376;
 			
 			// aapt resource value: 0x7F0B0801
-			public const int tv_EditGroupinfo = 2131429377;
+			public const int tvSignUp = 2131429377;
 			
-			// aapt resource value: 0x7F0B0802
-			public const int tv_EditPageinfo = 2131429378;
+			// aapt resource value: 0x7F0B0807
+			public const int tv_about = 2131429383;
 			
-			// aapt resource value: 0x7F0B0803
-			public const int tv_Friends = 2131429379;
+			// aapt resource value: 0x7F0B0808
+			public const int tv_aboutdescUser = 2131429384;
 			
-			// aapt resource value: 0x7F0B0804
-			public const int tv_Friends_connection = 2131429380;
+			// aapt resource value: 0x7F0B0809
+			public const int tv_add_source_error = 2131429385;
+			
+			// aapt resource value: 0x7F0B080A
+			public const int tv_amount_smv = 2131429386;
+			
+			// aapt resource value: 0x7F0B080B
+			public const int tv_count = 2131429387;
+			
+			// aapt resource value: 0x7F0B080C
+			public const int tv_description = 2131429388;
 			
 			// aapt resource value: 0x7F0B080D
-			public const int tv_joins = 2131429389;
+			public const int tv_detail_smv = 2131429389;
 			
-			// aapt resource value: 0x7F0B080E
-			public const int tv_joins_connection = 2131429390;
+			// aapt resource value: 0x7F0B0802
+			public const int tv_EditGroupinfo = 2131429378;
 			
-			// aapt resource value: 0x7F0B080F
-			public const int tv_label_smv = 2131429391;
+			// aapt resource value: 0x7F0B0803
+			public const int tv_EditPageinfo = 2131429379;
 			
-			// aapt resource value: 0x7F0B0810
-			public const int tv_lastactivities = 2131429392;
+			// aapt resource value: 0x7F0B0804
+			public const int tv_Friends = 2131429380;
 			
 			// aapt resource value: 0x7F0B0805
-			public const int tv_Location = 2131429381;
+			public const int tv_Friends_connection = 2131429381;
+			
+			// aapt resource value: 0x7F0B080E
+			public const int tv_joins = 2131429390;
+			
+			// aapt resource value: 0x7F0B080F
+			public const int tv_joins_connection = 2131429391;
+			
+			// aapt resource value: 0x7F0B0810
+			public const int tv_label_smv = 2131429392;
 			
 			// aapt resource value: 0x7F0B0811
-			public const int tv_name = 2131429393;
+			public const int tv_lastactivities = 2131429393;
+			
+			// aapt resource value: 0x7F0B0806
+			public const int tv_Location = 2131429382;
 			
 			// aapt resource value: 0x7F0B0812
-			public const int tv_new_version = 2131429394;
+			public const int tv_name = 2131429394;
 			
 			// aapt resource value: 0x7F0B0813
-			public const int tv_photos = 2131429395;
+			public const int tv_new_version = 2131429395;
 			
 			// aapt resource value: 0x7F0B0814
-			public const int tv_photoscount = 2131429396;
+			public const int tv_photos = 2131429396;
 			
 			// aapt resource value: 0x7F0B0815
-			public const int tv_price = 2131429397;
+			public const int tv_photoscount = 2131429397;
 			
 			// aapt resource value: 0x7F0B0816
-			public const int tv_title = 2131429398;
+			public const int tv_price = 2131429398;
 			
 			// aapt resource value: 0x7F0B0817
-			public const int tv_version = 2131429399;
+			public const int tv_title = 2131429399;
+			
+			// aapt resource value: 0x7F0B0818
+			public const int tv_version = 2131429400;
 			
 			// aapt resource value: 0x7F0B01D8
 			public const int TwitterEditText = 2131427800;
 			
-			// aapt resource value: 0x7F0B0818
-			public const int twitter_button = 2131429400;
+			// aapt resource value: 0x7F0B0819
+			public const int twitter_button = 2131429401;
 			
 			// aapt resource value: 0x7F0B01D9
 			public const int TwoFactorCodeEditText = 2131427801;
@@ -29869,47 +29872,47 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01DA
 			public const int TwoFactorEditText = 2131427802;
 			
-			// aapt resource value: 0x7F0B0819
-			public const int txtColor = 2131429401;
-			
 			// aapt resource value: 0x7F0B081A
-			public const int txtEndDate = 2131429402;
+			public const int txtColor = 2131429402;
+			
+			// aapt resource value: 0x7F0B081B
+			public const int txtEndDate = 2131429403;
 			
 			// aapt resource value: 0x7F0B01DB
 			public const int TxtExperience = 2131427803;
 			
-			// aapt resource value: 0x7F0B081B
-			public const int txtFollowers = 2131429403;
-			
 			// aapt resource value: 0x7F0B081C
-			public const int txtFollowing = 2131429404;
+			public const int txtFollowers = 2131429404;
 			
 			// aapt resource value: 0x7F0B081D
-			public const int txtLikes = 2131429405;
+			public const int txtFollowing = 2131429405;
 			
 			// aapt resource value: 0x7F0B081E
-			public const int txtNiceArtClose = 2131429406;
+			public const int txtLikes = 2131429406;
 			
 			// aapt resource value: 0x7F0B081F
-			public const int txtNiceArtEdit = 2131429407;
+			public const int txtNiceArtClose = 2131429407;
 			
 			// aapt resource value: 0x7F0B0820
-			public const int txtPoints = 2131429408;
+			public const int txtNiceArtEdit = 2131429408;
+			
+			// aapt resource value: 0x7F0B0821
+			public const int txtPoints = 2131429409;
 			
 			// aapt resource value: 0x7F0B01DC
 			public const int TxtPrivacy = 2131427804;
 			
-			// aapt resource value: 0x7F0B0821
-			public const int txtProfilePicture = 2131429409;
+			// aapt resource value: 0x7F0B0822
+			public const int txtProfilePicture = 2131429410;
 			
 			// aapt resource value: 0x7F0B01DD
 			public const int TxtQuestions = 2131427805;
 			
-			// aapt resource value: 0x7F0B0822
-			public const int txtStartDate = 2131429410;
-			
 			// aapt resource value: 0x7F0B0823
-			public const int txt_Font = 2131429411;
+			public const int txtStartDate = 2131429411;
+			
+			// aapt resource value: 0x7F0B0824
+			public const int txt_Font = 2131429412;
 			
 			// aapt resource value: 0x7F0B01DE
 			public const int Txt_LastMessages = 2131427806;
@@ -29947,53 +29950,53 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01E8
 			public const int TypeMoreIcon = 2131427816;
 			
-			// aapt resource value: 0x7F0B0824
-			public const int typeText = 2131429412;
+			// aapt resource value: 0x7F0B0825
+			public const int typeText = 2131429413;
 			
 			// aapt resource value: 0x7F0B01E9
 			public const int TypeTextView = 2131427817;
 			
-			// aapt resource value: 0x7F0B0825
-			public const int type_name = 2131429413;
+			// aapt resource value: 0x7F0B0826
+			public const int type_name = 2131429414;
 			
 			// aapt resource value: 0x7F0B01EB
 			public const int UnBlockUser_Button = 2131427819;
 			
-			// aapt resource value: 0x7F0B0826
-			public const int @unchecked = 2131429414;
-			
 			// aapt resource value: 0x7F0B0827
-			public const int uniform = 2131429415;
+			public const int @unchecked = 2131429415;
 			
 			// aapt resource value: 0x7F0B0828
-			public const int unknown = 2131429416;
+			public const int uniform = 2131429416;
 			
 			// aapt resource value: 0x7F0B0829
-			public const int unlabeled = 2131429417;
+			public const int unknown = 2131429417;
 			
 			// aapt resource value: 0x7F0B082A
-			public const int up = 2131429418;
+			public const int unlabeled = 2131429418;
+			
+			// aapt resource value: 0x7F0B082B
+			public const int up = 2131429419;
 			
 			// aapt resource value: 0x7F0B01EC
 			public const int UpgradeButton = 2131427820;
 			
-			// aapt resource value: 0x7F0B082B
-			public const int url = 2131429419;
+			// aapt resource value: 0x7F0B082C
+			public const int url = 2131429420;
 			
 			// aapt resource value: 0x7F0B01ED
 			public const int UrlEditText = 2131427821;
 			
-			// aapt resource value: 0x7F0B082D
-			public const int usedCount = 2131429421;
-			
 			// aapt resource value: 0x7F0B082E
-			public const int usedLinks = 2131429422;
-			
-			// aapt resource value: 0x7F0B082C
-			public const int useLogo = 2131429420;
+			public const int usedCount = 2131429422;
 			
 			// aapt resource value: 0x7F0B082F
-			public const int userAvatar = 2131429423;
+			public const int usedLinks = 2131429423;
+			
+			// aapt resource value: 0x7F0B082D
+			public const int useLogo = 2131429421;
+			
+			// aapt resource value: 0x7F0B0830
+			public const int userAvatar = 2131429424;
 			
 			// aapt resource value: 0x7F0B01EE
 			public const int UserImageProfile = 2131427822;
@@ -30001,59 +30004,59 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01EF
 			public const int UserImageView = 2131427823;
 			
-			// aapt resource value: 0x7F0B0830
-			public const int userImageView = 2131429424;
-			
 			// aapt resource value: 0x7F0B0831
-			public const int userInfoview_container = 2131429425;
+			public const int userImageView = 2131429425;
+			
+			// aapt resource value: 0x7F0B0832
+			public const int userInfoview_container = 2131429426;
 			
 			// aapt resource value: 0x7F0B01F0
 			public const int UserItem_Layout = 2131427824;
 			
-			// aapt resource value: 0x7F0B0836
-			public const int username = 2131429430;
+			// aapt resource value: 0x7F0B0837
+			public const int username = 2131429431;
 			
 			// aapt resource value: 0x7F0B01F3
 			public const int Username = 2131427827;
 			
-			// aapt resource value: 0x7F0B0838
-			public const int usernamefield = 2131429432;
+			// aapt resource value: 0x7F0B0839
+			public const int usernamefield = 2131429433;
 			
-			// aapt resource value: 0x7F0B0832
-			public const int userNameTextView = 2131429426;
+			// aapt resource value: 0x7F0B0833
+			public const int userNameTextView = 2131429427;
 			
 			// aapt resource value: 0x7F0B01F4
 			public const int UsernameTextView = 2131427828;
 			
-			// aapt resource value: 0x7F0B0837
-			public const int username_profile = 2131429431;
+			// aapt resource value: 0x7F0B0838
+			public const int username_profile = 2131429432;
 			
-			// aapt resource value: 0x7F0B0833
-			public const int userProfileImage = 2131429427;
+			// aapt resource value: 0x7F0B0834
+			public const int userProfileImage = 2131429428;
 			
-			// aapt resource value: 0x7F0B0839
-			public const int userprofile_pic = 2131429433;
+			// aapt resource value: 0x7F0B083A
+			public const int userprofile_pic = 2131429434;
 			
 			// aapt resource value: 0x7F0B01F1
 			public const int UserRatingBar = 2131427825;
 			
-			// aapt resource value: 0x7F0B0834
-			public const int userRecyler = 2131429428;
-			
-			// aapt resource value: 0x7F0B083A
-			public const int userthumbnailVideo = 2131429434;
-			
 			// aapt resource value: 0x7F0B0835
-			public const int user_container = 2131429429;
+			public const int userRecyler = 2131429429;
+			
+			// aapt resource value: 0x7F0B083B
+			public const int userthumbnailVideo = 2131429435;
+			
+			// aapt resource value: 0x7F0B0836
+			public const int user_container = 2131429430;
 			
 			// aapt resource value: 0x7F0B01F2
 			public const int User_name = 2131427826;
 			
-			// aapt resource value: 0x7F0B083C
-			public const int verified = 2131429436;
-			
 			// aapt resource value: 0x7F0B083D
-			public const int verifiedIcon = 2131429437;
+			public const int verified = 2131429437;
+			
+			// aapt resource value: 0x7F0B083E
+			public const int verifiedIcon = 2131429438;
 			
 			// aapt resource value: 0x7F0B01F5
 			public const int VerifiedMoreIcon = 2131427829;
@@ -30061,119 +30064,119 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01F6
 			public const int VerifiedTextView = 2131427830;
 			
-			// aapt resource value: 0x7F0B083E
-			public const int verifyButton = 2131429438;
-			
 			// aapt resource value: 0x7F0B083F
-			public const int vertical = 2131429439;
+			public const int verifyButton = 2131429439;
 			
 			// aapt resource value: 0x7F0B0840
-			public const int videoCategoryDefaultText = 2131429440;
+			public const int vertical = 2131429440;
 			
 			// aapt resource value: 0x7F0B0841
-			public const int videoCategoryLayout = 2131429441;
+			public const int videoCategoryDefaultText = 2131429441;
 			
 			// aapt resource value: 0x7F0B0842
-			public const int videoCategorytextview = 2131429442;
+			public const int videoCategoryLayout = 2131429442;
 			
 			// aapt resource value: 0x7F0B0843
-			public const int videoDate = 2131429443;
+			public const int videoCategorytextview = 2131429443;
 			
 			// aapt resource value: 0x7F0B0844
-			public const int videoDescriptionLayout = 2131429444;
+			public const int videoDate = 2131429444;
 			
 			// aapt resource value: 0x7F0B0845
-			public const int videoDescriptionTextview = 2131429445;
+			public const int videoDescriptionLayout = 2131429445;
 			
-			// aapt resource value: 0x7F0B0857
-			public const int videoicon = 2131429463;
+			// aapt resource value: 0x7F0B0846
+			public const int videoDescriptionTextview = 2131429446;
+			
+			// aapt resource value: 0x7F0B0858
+			public const int videoicon = 2131429464;
 			
 			// aapt resource value: 0x7F0B01F8
 			public const int Videoicon_button = 2131427832;
 			
-			// aapt resource value: 0x7F0B0846
-			public const int videoMenue = 2131429446;
-			
 			// aapt resource value: 0x7F0B0847
-			public const int videoStarsDefaultText = 2131429447;
+			public const int videoMenue = 2131429447;
 			
 			// aapt resource value: 0x7F0B0848
-			public const int videoStarsLayout = 2131429448;
+			public const int videoStarsDefaultText = 2131429448;
 			
 			// aapt resource value: 0x7F0B0849
-			public const int videoStarstextview = 2131429449;
+			public const int videoStarsLayout = 2131429449;
 			
 			// aapt resource value: 0x7F0B084A
-			public const int videoTagDefaultText = 2131429450;
+			public const int videoStarstextview = 2131429450;
 			
 			// aapt resource value: 0x7F0B084B
-			public const int videoTagLayout = 2131429451;
+			public const int videoTagDefaultText = 2131429451;
 			
 			// aapt resource value: 0x7F0B084C
-			public const int videoTagtextview = 2131429452;
+			public const int videoTagLayout = 2131429452;
 			
 			// aapt resource value: 0x7F0B084D
-			public const int videoType = 2131429453;
+			public const int videoTagtextview = 2131429453;
 			
 			// aapt resource value: 0x7F0B084E
-			public const int videoView = 2131429454;
+			public const int videoType = 2131429454;
+			
+			// aapt resource value: 0x7F0B084F
+			public const int videoView = 2131429455;
 			
 			// aapt resource value: 0x7F0B01F7
 			public const int VideoView = 2131427831;
 			
-			// aapt resource value: 0x7F0B0851
-			public const int video_container = 2131429457;
-			
 			// aapt resource value: 0x7F0B0852
-			public const int video_decoder_gl_surface_view = 2131429458;
+			public const int video_container = 2131429458;
 			
 			// aapt resource value: 0x7F0B0853
-			public const int video_enabled_btn = 2131429459;
-			
-			// aapt resource value: 0x7F0B084F
-			public const int video_ShowDiscription = 2131429455;
+			public const int video_decoder_gl_surface_view = 2131429459;
 			
 			// aapt resource value: 0x7F0B0854
-			public const int video_surface = 2131429460;
-			
-			// aapt resource value: 0x7F0B0855
-			public const int video_surface_container = 2131429461;
-			
-			// aapt resource value: 0x7F0B0856
-			public const int video_texture_view = 2131429462;
+			public const int video_enabled_btn = 2131429460;
 			
 			// aapt resource value: 0x7F0B0850
-			public const int video_Titile = 2131429456;
+			public const int video_ShowDiscription = 2131429456;
 			
-			// aapt resource value: 0x7F0B0858
-			public const int view = 2131429464;
+			// aapt resource value: 0x7F0B0855
+			public const int video_surface = 2131429461;
 			
-			// aapt resource value: 0x7F0B0865
-			public const int viewcount = 2131429477;
+			// aapt resource value: 0x7F0B0856
+			public const int video_surface_container = 2131429462;
+			
+			// aapt resource value: 0x7F0B0857
+			public const int video_texture_view = 2131429463;
+			
+			// aapt resource value: 0x7F0B0851
+			public const int video_Titile = 2131429457;
+			
+			// aapt resource value: 0x7F0B0859
+			public const int view = 2131429465;
+			
+			// aapt resource value: 0x7F0B0866
+			public const int viewcount = 2131429478;
 			
 			// aapt resource value: 0x7F0B01F9
 			public const int ViewFollowers = 2131427833;
 			
-			// aapt resource value: 0x7F0B0859
-			public const int viewIcon = 2131429465;
+			// aapt resource value: 0x7F0B085A
+			public const int viewIcon = 2131429466;
 			
 			// aapt resource value: 0x7F0B01FA
 			public const int ViewLikes = 2131427834;
 			
-			// aapt resource value: 0x7F0B0866
-			public const int viewpager = 2131429478;
-			
-			// aapt resource value: 0x7F0B085A
-			public const int viewPager = 2131429466;
-			
 			// aapt resource value: 0x7F0B0867
-			public const int viewpagerSticker = 2131429479;
+			public const int viewpager = 2131429479;
+			
+			// aapt resource value: 0x7F0B085B
+			public const int viewPager = 2131429467;
+			
+			// aapt resource value: 0x7F0B0868
+			public const int viewpagerSticker = 2131429480;
 			
 			// aapt resource value: 0x7F0B01FB
 			public const int ViewPoints = 2131427835;
 			
-			// aapt resource value: 0x7F0B0868
-			public const int views = 2131429480;
+			// aapt resource value: 0x7F0B0869
+			public const int views = 2131429481;
 			
 			// aapt resource value: 0x7F0B01FD
 			public const int ViewsButton = 2131427837;
@@ -30184,26 +30187,26 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01FE
 			public const int ViewsNumber = 2131427838;
 			
-			// aapt resource value: 0x7F0B085B
-			public const int viewStub = 2131429467;
-			
 			// aapt resource value: 0x7F0B085C
-			public const int viewStubCatGroup = 2131429468;
+			public const int viewStub = 2131429468;
 			
 			// aapt resource value: 0x7F0B085D
-			public const int viewStubQuestionOne = 2131429469;
+			public const int viewStubCatGroup = 2131429469;
 			
 			// aapt resource value: 0x7F0B085E
-			public const int viewStubQuestionThree = 2131429470;
+			public const int viewStubQuestionOne = 2131429470;
 			
 			// aapt resource value: 0x7F0B085F
-			public const int viewStubQuestionTwo = 2131429471;
+			public const int viewStubQuestionThree = 2131429471;
 			
 			// aapt resource value: 0x7F0B0860
-			public const int viewStubRandomGroup = 2131429472;
+			public const int viewStubQuestionTwo = 2131429472;
 			
 			// aapt resource value: 0x7F0B0861
-			public const int viewStubSuggestedGroup = 2131429473;
+			public const int viewStubRandomGroup = 2131429473;
+			
+			// aapt resource value: 0x7F0B0862
+			public const int viewStubSuggestedGroup = 2131429474;
 			
 			// aapt resource value: 0x7F0B01FF
 			public const int Views_Count = 2131427839;
@@ -30211,53 +30214,53 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B01FC
 			public const int View_more = 2131427836;
 			
-			// aapt resource value: 0x7F0B0862
-			public const int view_offset_helper = 2131429474;
-			
 			// aapt resource value: 0x7F0B0863
-			public const int view_pager = 2131429475;
+			public const int view_offset_helper = 2131429475;
 			
 			// aapt resource value: 0x7F0B0864
-			public const int view_tree_saved_state_registry_owner = 2131429476;
+			public const int view_pager = 2131429476;
 			
-			// aapt resource value: 0x7F0B0869
-			public const int visible = 2131429481;
+			// aapt resource value: 0x7F0B0865
+			public const int view_tree_saved_state_registry_owner = 2131429477;
 			
 			// aapt resource value: 0x7F0B086A
-			public const int visible_removing_fragment_view_tag = 2131429482;
+			public const int visible = 2131429482;
+			
+			// aapt resource value: 0x7F0B086B
+			public const int visible_removing_fragment_view_tag = 2131429483;
 			
 			// aapt resource value: 0x7F0B0201
 			public const int VkEditText = 2131427841;
 			
-			// aapt resource value: 0x7F0B086B
-			public const int vk_button = 2131429483;
-			
 			// aapt resource value: 0x7F0B086C
-			public const int voiceButton = 2131429484;
+			public const int vk_button = 2131429484;
 			
 			// aapt resource value: 0x7F0B086D
-			public const int voiceLayout = 2131429485;
+			public const int voiceButton = 2131429485;
 			
 			// aapt resource value: 0x7F0B086E
-			public const int voiceseekbar = 2131429486;
+			public const int voiceLayout = 2131429486;
 			
 			// aapt resource value: 0x7F0B086F
-			public const int volume_item_container = 2131429487;
+			public const int voiceseekbar = 2131429487;
 			
 			// aapt resource value: 0x7F0B0870
-			public const int voteText = 2131429488;
+			public const int volume_item_container = 2131429488;
 			
 			// aapt resource value: 0x7F0B0871
-			public const int vp_horizontal_ntb = 2131429489;
-			
-			// aapt resource value: 0x7F0B083B
-			public const int v_circle = 2131429435;
-			
-			// aapt resource value: 0x7F0B0873
-			public const int walletnumber = 2131429491;
+			public const int voteText = 2131429489;
 			
 			// aapt resource value: 0x7F0B0872
-			public const int walletSection = 2131429490;
+			public const int vp_horizontal_ntb = 2131429490;
+			
+			// aapt resource value: 0x7F0B083C
+			public const int v_circle = 2131429436;
+			
+			// aapt resource value: 0x7F0B0874
+			public const int walletnumber = 2131429492;
+			
+			// aapt resource value: 0x7F0B0873
+			public const int walletSection = 2131429491;
 			
 			// aapt resource value: 0x7F0B0202
 			public const int WebsiteEditText = 2131427842;
@@ -30265,23 +30268,23 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0203
 			public const int WebsiteText = 2131427843;
 			
-			// aapt resource value: 0x7F0B0874
-			public const int webview = 2131429492;
-			
 			// aapt resource value: 0x7F0B0875
-			public const int when_playing = 2131429493;
+			public const int webview = 2131429493;
 			
 			// aapt resource value: 0x7F0B0876
-			public const int wide = 2131429494;
+			public const int when_playing = 2131429494;
 			
 			// aapt resource value: 0x7F0B0877
-			public const int widget_viewstub_as = 2131429495;
+			public const int wide = 2131429495;
+			
+			// aapt resource value: 0x7F0B0878
+			public const int widget_viewstub_as = 2131429496;
 			
 			// aapt resource value: 0x7F0B0204
 			public const int WithdrawMethodEditText = 2131427844;
 			
-			// aapt resource value: 0x7F0B0878
-			public const int withText = 2131429496;
+			// aapt resource value: 0x7F0B0879
+			public const int withText = 2131429497;
 			
 			// aapt resource value: 0x7F0B0206
 			public const int Work = 2131427846;
@@ -30295,20 +30298,20 @@ namespace WoWonder
 			// aapt resource value: 0x7F0B0205
 			public const int WoWonderTextCount = 2131427845;
 			
-			// aapt resource value: 0x7F0B0879
-			public const int wrap = 2131429497;
-			
 			// aapt resource value: 0x7F0B087A
-			public const int wrap_content = 2131429498;
+			public const int wrap = 2131429498;
+			
+			// aapt resource value: 0x7F0B087B
+			public const int wrap_content = 2131429499;
 			
 			// aapt resource value: 0x7F0B0209
 			public const int YouTubeEditText = 2131427849;
 			
-			// aapt resource value: 0x7F0B087B
-			public const int youtube_button = 2131429499;
-			
 			// aapt resource value: 0x7F0B087C
-			public const int zoom = 2131429500;
+			public const int youtube_button = 2131429500;
+			
+			// aapt resource value: 0x7F0B087D
+			public const int zoom = 2131429501;
 			
 			static Id()
 			{

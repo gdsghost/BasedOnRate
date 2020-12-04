@@ -67,7 +67,7 @@
     <AndroidPackageFormat>apk</AndroidPackageFormat>
     <JavaMaximumHeapSize>3G</JavaMaximumHeapSize>
     <AndroidSupportedAbis />
-    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidKeyStore>True</AndroidKeyStore>
     <AndroidSigningKeyStore>KeyApk\wowondertimelinechat.keystore</AndroidSigningKeyStore>
     <AndroidSigningKeyAlias>wowondertimelinechat</AndroidSigningKeyAlias>
     <AndroidSigningStorePass>aaaaaaaa</AndroidSigningStorePass>
@@ -595,6 +595,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SQLite\DataTables.cs" />
     <Compile Include="SQLite\SqLiteDatabase.cs" />
+    <Compile Include="Helpers\Http\HttpClientService.cs" />
+    <Compile Include="Helpers\Model\User.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\EmptyStateAnim1.json" />
@@ -3312,6 +3314,9 @@
     <AndroidResource Include="Resources\drawable\icon_unstar.png" />
   </ItemGroup>
   <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Helpers\Http\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

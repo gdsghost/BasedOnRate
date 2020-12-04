@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -79,11 +82,26 @@
                   app:civ_border_color="@color/textLight_color" />
             </RelativeLayout>
             <LinearLayout
-                android:layout_width="160dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                        android:padding="@dimen/abc_button_padding_horizontal_material"
                 android:orientation="horizontal"
-                android:weightSum="3">
+                android:weightSum="4">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:gravity="center">
+                                <at.markushi.ui.CircleButton
+                                    android:id="@+id/playUsersSong"
+                                    android:layout_width="48dp"
+                                    android:layout_height="48dp"
+                                    app:cb_color="#6666ff"
+                                    app:cb_pressedRingWidth="3dip"
+                                    android:src="@drawable/ic_attach_music"
+                                    android:tint="@color/textLight_color" />
+                              </LinearLayout>
               <LinearLayout
                   android:layout_width="wrap_content"
                   android:layout_height="wrap_content"
