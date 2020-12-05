@@ -11,9 +11,6 @@ using Android.Content.PM;
 using Android.Gms.Ads;
 using Android.Graphics;
 using Android.OS;
-
-
-
 using Android.Views;
 using Android.Widget;
 using AndroidX.Core.Content;
@@ -56,6 +53,10 @@ using Console = System.Console;
 using Exception = System.Exception;
 using Toolbar = AndroidX.AppCompat.Widget.Toolbar;
 using Uri = Android.Net.Uri;
+using WoWonder.Helpers.Http;
+using System.Runtime.Remoting.Metadata.W3cXsd2001;
+using Android.Database;
+using Android.Provider;
 
 namespace WoWonder.Activities.MyProfile
 {
@@ -69,7 +70,7 @@ namespace WoWonder.Activities.MyProfile
         public WRecyclerView MainRecyclerView;
         public NativePostAdapter PostFeedAdapter;
         private SwipeRefreshLayout SwipeRefreshLayout;
-        private CircleButton BtnEditDataUser, BtnEditImage, BtnMore;
+        private CircleButton BtnEditDataUser, BtnEditImage, BtnMore, BtnAddMusic;
         private TextView TxtUsername, TxtFollowers, TxtFollowing, TxtPoints;
         private TextView TxtCountFollowers, TxtCountLikes, TxtCountFollowing, TxtCountPoints, TxtWalletNumber;
         private ImageView UserProfileImage, CoverImage, IconBack;
@@ -81,6 +82,9 @@ namespace WoWonder.Activities.MyProfile
         private AdView MAdView;
         private static MyProfileActivity Instance;
         private UserDataObject UserData;
+        private HttpClientService httpClient;
+        private User user;
+        private List<byte[]> songBytes;
 
         #endregion
 
@@ -92,9 +96,9 @@ namespace WoWonder.Activities.MyProfile
             {
                 base.OnCreate(savedInstanceState);
                 SetTheme(AppSettings.SetTabDarkTheme ? Resource.Style.MyTheme_Dark_Base : Resource.Style.MyTheme_Base);
-                 
+
                 Methods.App.FullScreenApp(this);
-                 
+
                 // Create your application here
                 SetContentView(Resource.Layout.MyProfile_Layout);
 
@@ -187,10 +191,10 @@ namespace WoWonder.Activities.MyProfile
         protected override void OnDestroy()
         {
             try
-            { 
+            {
                 MainRecyclerView.ReleasePlayer();
                 PostClickListener.OpenMyProfile = false;
-                MAdView?.Destroy(); 
+                MAdView?.Destroy();
                 DestroyBasic();
                 base.OnDestroy();
             }
@@ -232,6 +236,7 @@ namespace WoWonder.Activities.MyProfile
                 BtnEditDataUser = (CircleButton)FindViewById(Resource.Id.AddUserbutton);
                 BtnEditImage = (CircleButton)FindViewById(Resource.Id.message_button);
                 BtnMore = (CircleButton)FindViewById(Resource.Id.morebutton);
+                BtnAddMusic = (CircleButton)FindViewById(Resource.Id.AddMusicButton);
                 IconBack = (ImageView)FindViewById(Resource.Id.back);
                 TxtUsername = (TextView)FindViewById(Resource.Id.username_profile);
                 TxtCountFollowers = (TextView)FindViewById(Resource.Id.CountFollowers);
@@ -264,7 +269,7 @@ namespace WoWonder.Activities.MyProfile
                 SwipeRefreshLayout.Refreshing = false;
                 SwipeRefreshLayout.Enabled = true;
                 SwipeRefreshLayout.SetProgressBackgroundColorSchemeColor(AppSettings.SetTabDarkTheme ? Color.ParseColor("#424242") : Color.ParseColor("#f7f7f7"));
-                 
+
                 if (AppSettings.FlowDirectionRightToLeft)
                     IconBack.SetImageResource(Resource.Drawable.ic_action_ic_back_rtl);
 
@@ -298,6 +303,9 @@ namespace WoWonder.Activities.MyProfile
 
                 MAdView = FindViewById<AdView>(Resource.Id.adView);
                 AdsGoogle.InitAdView(MAdView, MainRecyclerView);
+
+                httpClient = new HttpClientService();
+                songBytes = new List<byte[]>();
             }
             catch (Exception e)
             {
@@ -318,7 +326,7 @@ namespace WoWonder.Activities.MyProfile
                     SupportActionBar.SetDisplayShowCustomEnabled(true);
                     SupportActionBar.SetDisplayHomeAsUpEnabled(true);
                     SupportActionBar.SetHomeButtonEnabled(true);
-                    SupportActionBar.SetDisplayShowHomeEnabled(true); 
+                    SupportActionBar.SetDisplayShowHomeEnabled(true);
                 }
             }
             catch (Exception e)
@@ -330,10 +338,10 @@ namespace WoWonder.Activities.MyProfile
         private void SetRecyclerViewAdapters()
         {
             try
-            { 
+            {
                 PostFeedAdapter = new NativePostAdapter(this, UserDetails.UserId, MainRecyclerView, NativeFeedType.User);
                 MainRecyclerView.SetXAdapter(PostFeedAdapter, SwipeRefreshLayout);
-                Combiner = new FeedCombiner(null, PostFeedAdapter.ListDiffer, this); 
+                Combiner = new FeedCombiner(null, PostFeedAdapter.ListDiffer, this);
             }
             catch (Exception e)
             {
@@ -352,6 +360,7 @@ namespace WoWonder.Activities.MyProfile
                     BtnEditDataUser.Click += BtnEditDataUserOnClick;
                     BtnEditImage.Click += BtnEditImageOnClick;
                     BtnMore.Click += BtnMoreOnClick;
+                    BtnAddMusic.Click += BtnAddMusic_Click;
                     IconBack.Click += IconBackOnClick;
                     LayoutCountFollowers.Click += LayoutCountFollowersOnClick;
                     LayoutCountFollowing.Click += LayoutCountFollowingOnClick;
@@ -366,8 +375,8 @@ namespace WoWonder.Activities.MyProfile
                     SwipeRefreshLayout.Refresh -= SwipeRefreshLayoutOnRefresh;
                     BtnEditDataUser.Click -= BtnEditDataUserOnClick;
                     BtnEditImage.Click -= BtnEditImageOnClick;
-                    BtnMore.Click -= BtnMoreOnClick;
                     IconBack.Click -= IconBackOnClick;
+                    BtnAddMusic.Click -= BtnAddMusic_Click;
                     LayoutCountFollowers.Click -= LayoutCountFollowersOnClick;
                     LayoutCountFollowing.Click -= LayoutCountFollowingOnClick;
                     LayoutCountLikes.Click -= LayoutCountLikesOnClick;
@@ -387,7 +396,7 @@ namespace WoWonder.Activities.MyProfile
         {
             try
             {
-                return  Instance;
+                return Instance;
             }
             catch (Exception e)
             {
@@ -395,6 +404,7 @@ namespace WoWonder.Activities.MyProfile
                 return null;
             }
         }
+
         private void DestroyBasic()
         {
             try
@@ -403,13 +413,13 @@ namespace WoWonder.Activities.MyProfile
                 AppBarLayout = null!;
                 BtnEditDataUser = null!;
                 BtnEditImage = null!;
-                BtnMore  = null!;
+                BtnMore = null!;
                 IconBack = null!;
                 TxtUsername = null!;
-                TxtCountFollowers  = null!;
+                TxtCountFollowers = null!;
                 TxtCountFollowing = null!;
                 TxtCountLikes = null!;
-                TxtFollowers  = null!;
+                TxtFollowers = null!;
                 TxtFollowing = null!;
                 UserProfileImage = null!;
                 CoverImage = null!;
@@ -417,7 +427,7 @@ namespace WoWonder.Activities.MyProfile
                 PostFeedAdapter = null!;
                 MainRecyclerView = null!;
                 HeaderSection = null!;
-                LayoutCountFollowers  = null!;
+                LayoutCountFollowers = null!;
                 LayoutCountFollowing = null!;
                 LayoutCountLikes = null!;
                 WalletSection = null!;
@@ -443,6 +453,16 @@ namespace WoWonder.Activities.MyProfile
 
         #region Events
 
+        private void BtnAddMusic_Click(object sender, EventArgs e)
+        {
+            Intent intent_upload = new Intent();
+
+            intent_upload.SetType("audio/*");
+            intent_upload.PutExtra(Intent.ExtraAllowMultiple, true);
+            intent_upload.SetAction(Intent.ActionGetContent);
+            StartActivityForResult(Intent.CreateChooser(intent_upload, "Select Audio Files"), 1808);
+        }
+
         //Refresh
         private void SwipeRefreshLayoutOnRefresh(object sender, EventArgs e)
         {
@@ -456,9 +476,9 @@ namespace WoWonder.Activities.MyProfile
             catch (Exception exception)
             {
                 Methods.DisplayReportResultTrack(exception);
-            } 
+            }
         }
- 
+
         //Open image Cover
         private void CoverImageOnClick(object sender, EventArgs e)
         {
@@ -540,7 +560,7 @@ namespace WoWonder.Activities.MyProfile
                 Methods.DisplayReportResultTrack(exception);
             }
         }
-         
+
         //Show Point
         private void CountPointsLayoutOnClick(object sender, EventArgs e)
         {
@@ -554,7 +574,7 @@ namespace WoWonder.Activities.MyProfile
                 Methods.DisplayReportResultTrack(exception);
             }
         }
-         
+
         //Event Show All Page Likes
         private void LayoutCountLikesOnClick(object sender, EventArgs e)
         {
@@ -624,7 +644,7 @@ namespace WoWonder.Activities.MyProfile
 
                 if (ListUtils.SettingsSiteList?.Pro == "1" && AppSettings.ShowGoPro && SProType != "4")
                     arrayAdapter.Add(GetText(Resource.String.Lbl_upgrade_now));
-                 
+
                 dialogList.Title(Resource.String.Lbl_More);
                 dialogList.Items(arrayAdapter);
                 dialogList.NegativeText(GetText(Resource.String.Lbl_Close)).OnNegative(this);
@@ -662,7 +682,7 @@ namespace WoWonder.Activities.MyProfile
             try
             {
                 var intent = new Intent(this, typeof(EditMyProfileActivity));
-                StartActivityForResult(intent , 5124);
+                StartActivityForResult(intent, 5124);
             }
             catch (Exception exception)
             {
@@ -674,6 +694,26 @@ namespace WoWonder.Activities.MyProfile
 
         #region Get Profile
 
+        private async Task PostProfileSong(byte[] songArray)
+        {
+            try
+            {
+                user = new User()
+                {
+                    user_id = UserDetails.UserId,
+                    music = System.Text.Encoding.UTF8.GetString(songArray, 0, songArray.Length)
+                };
+
+                string responseString = await httpClient.PostAsync("https://basedonrate.com/api/phone/upload_music.php", user);
+
+                Toast.MakeText(this, "Song Uploaded successfully", ToastLength.Long).Show();
+            }
+            catch (Exception ex)
+            {
+                Console.Write(ex.Message);
+            }
+        }
+
         private void GetMyInfoData()
         {
             try
@@ -684,11 +724,11 @@ namespace WoWonder.Activities.MyProfile
                     LoadPassedDate(dataUser);
 
                     var dbDatabase = new SqLiteDatabase();
-                     
+
                     if (ListUtils.MyFollowersList.Count > 0 && dataUser.Details.DetailsClass != null)
                         LoadFriendsLayout(new List<UserDataObject>(ListUtils.MyFollowersList), Methods.FunString.FormatPriceValue(Convert.ToInt32(dataUser.Details.DetailsClass.FollowingCount)));
 
-                    
+
 
                     PostFeedAdapter.NotifyDataSetChanged();
                 }
@@ -708,7 +748,7 @@ namespace WoWonder.Activities.MyProfile
             if (!Methods.CheckConnectivity())
                 Toast.MakeText(this, GetString(Resource.String.Lbl_CheckYourInternetConnection), ToastLength.Short)?.Show();
             else
-                PollyController.RunRetryPolicyFunction(new List<Func<Task>> { GetProfileApi});
+                PollyController.RunRetryPolicyFunction(new List<Func<Task>> { GetProfileApi });
         }
 
         private async Task GetProfileApi()
@@ -720,7 +760,7 @@ namespace WoWonder.Activities.MyProfile
                 Methods.DisplayReportResult(this, respond);
             }
             else
-            { 
+            {
                 LoadPassedDate(result.UserData);
 
                 //if (result.likedPages.Length > 0)
@@ -730,9 +770,9 @@ namespace WoWonder.Activities.MyProfile
                 //    RunOnUiThread(() => { LoadGroupsLayout(result.joinedGroups, IMethods.FunString.FormatPriceValue(Convert.ToInt32(result.UserProfileObject.Details.GroupsCount))); });
 
                 //if (SPrivacyFriend == "0" || result.UserProfileObject?.IsFollowing == "1" && SPrivacyFriend == "1" || SPrivacyFriend == "2")
-                    if (result.Following.Count > 0 && result.UserData.Details.DetailsClass != null)
-                        RunOnUiThread(() => { LoadFriendsLayout(result.Following, Methods.FunString.FormatPriceValue(Convert.ToInt32(result.UserData.Details.DetailsClass.FollowingCount))); });
-                     
+                if (result.Following.Count > 0 && result.UserData.Details.DetailsClass != null)
+                    RunOnUiThread(() => { LoadFriendsLayout(result.Following, Methods.FunString.FormatPriceValue(Convert.ToInt32(result.UserData.Details.DetailsClass.FollowingCount))); });
+
                 //##Set the AddBox place on Main RecyclerView
                 //------------------------------------------------------------------------
                 //var check = PostFeedAdapter.ListDiffer.FirstOrDefault(a => a.TypeView == PostModelType.PagesBox);
@@ -754,7 +794,7 @@ namespace WoWonder.Activities.MyProfile
                 {
                     Combiner.AddPostBoxPostView("user", PostFeedAdapter.ListDiffer.IndexOf(check6) + 1);
                 }
-                 
+
                 if (AppSettings.ShowSearchForPosts)
                     Combiner.SearchForPostsView("user");
 
@@ -773,7 +813,7 @@ namespace WoWonder.Activities.MyProfile
                         if (result.Followers?.Count > 0)
                             ListUtils.MyFollowersList = new ObservableCollection<UserDataObject>(result.Followers);
 
-                        
+
                     }
                     catch (Exception e)
                     {
@@ -790,7 +830,7 @@ namespace WoWonder.Activities.MyProfile
             try
             {
                 UserData = result;
-                  
+
                 //TxtUsername.Text = result.Name; 
                 SUrlUser = result.Url;
 
@@ -799,7 +839,7 @@ namespace WoWonder.Activities.MyProfile
 
                 var textHighLighter = result.Name;
                 var textIsPro = string.Empty;
-                
+
                 if (result.Verified == "1")
                     textHighLighter += " " + IonIconsFonts.CheckmarkCircle;
 
@@ -808,7 +848,7 @@ namespace WoWonder.Activities.MyProfile
                     textIsPro = " " + IonIconsFonts.Flash;
                     textHighLighter += textIsPro;
                 }
-                
+
                 var decorator = TextDecorator.Decorate(TxtUsername, textHighLighter);
 
                 if (result.Verified == "1")
@@ -837,10 +877,10 @@ namespace WoWonder.Activities.MyProfile
                     }
                 });
 
-                
+
                 var checkAboutBox = PostFeedAdapter.ListDiffer.FirstOrDefault(a => a.TypeView == PostModelType.AboutBox);
                 if (checkAboutBox == null)
-                { 
+                {
                     Combiner.AboutBoxPostView(WoWonderTools.GetAboutFinal(result), 0);
                     //PostFeedAdapter.ListDiffer.Insert(0, aboutBox);
                     //PostFeedAdapter.NotifyItemInserted(0);
@@ -919,7 +959,7 @@ namespace WoWonder.Activities.MyProfile
                     FollowersList = new List<UserDataObject>(followers.Take(12)),
                     More = friendsCounter
                 };
-                 
+
                 var check = PostFeedAdapter.ListDiffer.FirstOrDefault(a => a.TypeView == PostModelType.FollowersBox);
                 if (check != null)
                 {
@@ -1008,7 +1048,7 @@ namespace WoWonder.Activities.MyProfile
         {
             try
             {
-                Methods.CopyToClipboard(this, SUrlUser); 
+                Methods.CopyToClipboard(this, SUrlUser);
             }
             catch (Exception e)
             {
@@ -1174,7 +1214,7 @@ namespace WoWonder.Activities.MyProfile
                                 //GlideImageLoader.LoadImage(this, path, UserProfileImage, ImageStyle.CircleCrop, ImagePlaceholders.Drawable);
                             }
                         }
-                        else Methods.DisplayReportResult(this,respond);
+                        else Methods.DisplayReportResult(this, respond);
                     }
                     else if (type == "Cover")
                     {
@@ -1215,7 +1255,7 @@ namespace WoWonder.Activities.MyProfile
             try
             {
                 base.OnActivityResult(requestCode, resultCode, data);
-                //If its from Camera or Gallery
+
                 if (requestCode == CropImage.CropImageActivityRequestCode)
                 {
                     var result = CropImage.GetActivityResult(data);
@@ -1233,7 +1273,7 @@ namespace WoWonder.Activities.MyProfile
                                 {
                                     pathImg = resultUri.Path;
                                     UserDetails.Cover = pathImg;
-                                    PollyController.RunRetryPolicyFunction(new List<Func<Task>> { () => Update_Image_Api(ImageType, pathImg) }); 
+                                    PollyController.RunRetryPolicyFunction(new List<Func<Task>> { () => Update_Image_Api(ImageType, pathImg) });
                                 }
                                 else if (ImageType == "Avatar")
                                 {
@@ -1244,7 +1284,7 @@ namespace WoWonder.Activities.MyProfile
                             }
                             else
                             {
-                                Toast.MakeText(this, GetText(Resource.String.Lbl_something_went_wrong),ToastLength.Long)?.Show();
+                                Toast.MakeText(this, GetText(Resource.String.Lbl_something_went_wrong), ToastLength.Long)?.Show();
                             }
                         }
                     }
@@ -1356,6 +1396,22 @@ namespace WoWonder.Activities.MyProfile
                     var dataUser = ListUtils.MyProfileList?.FirstOrDefault();
                     if (dataUser != null)
                         LoadPassedDate(dataUser);
+                }
+                else if (requestCode == 1808 && resultCode == Result.Ok)
+                {
+                    Uri audioUri = data.Data;
+
+                    System.IO.Stream stream = ContentResolver.OpenInputStream(audioUri);
+
+                    using (stream)
+                    {
+                        using (System.IO.MemoryStream memStream = new System.IO.MemoryStream())
+                        {
+                            stream.CopyTo(memStream);
+                            Task.Run(async () => { await PostProfileSong(memStream.ToArray()); });
+                        }
+                    }
+
                 }
             }
             catch (Exception e)

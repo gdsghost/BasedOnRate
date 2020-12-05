@@ -45,7 +45,7 @@
     <AndroidSupportedAbis>
     </AndroidSupportedAbis>
     <JavaMaximumHeapSize>3G</JavaMaximumHeapSize>
-    <AndroidKeyStore>true</AndroidKeyStore>
+    <AndroidKeyStore>True</AndroidKeyStore>
     <AndroidSigningKeyStore>KeyApk\wowondertimelinechat.keystore</AndroidSigningKeyStore>
     <AndroidSigningKeyAlias>wowondertimelinechat</AndroidSigningKeyAlias>
     <AndroidSigningStorePass>aaaaaaaa</AndroidSigningStorePass>

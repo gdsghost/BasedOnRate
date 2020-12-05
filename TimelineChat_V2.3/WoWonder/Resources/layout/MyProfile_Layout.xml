@@ -78,12 +78,27 @@
                             app:civ_border_color="@color/textLight_color" />
                     </RelativeLayout>
                     <LinearLayout
-                        android:layout_width="160dp"
+                        android:layout_width="180dp"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:orientation="horizontal"
-                        android:weightSum="3">
+                        android:weightSum="4">
+
                         <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center">
+                            <at.markushi.ui.CircleButton
+                                android:id="@+id/AddMusicButton"
+                                android:layout_width="48dp"
+                                android:layout_height="48dp"
+                                app:cb_color="#6666ff"
+                                app:cb_pressedRingWidth="3dip"
+                                android:src="@drawable/ic_attach_music"
+                                android:tint="@color/textLight_color" />
+                        </LinearLayout>
+                            <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"

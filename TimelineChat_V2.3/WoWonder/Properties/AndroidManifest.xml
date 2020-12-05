@@ -20,7 +20,6 @@
 	<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 	<uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW" />
 	<uses-permission android:name="android.permission.BROADCAST_SMS" />
-	<uses-permission android:name="android.permission.BIND_JOB_SERVICE" />
 	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
@@ -32,10 +31,8 @@
 	<uses-permission android:name="android.permission.RECORD_AUDIO" />
 	<!--<uses-permission android:name="com.android.vending.BILLING" />-->
 	<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-	<uses-permission android:name="android.permission.ACTION_MANAGE_OVERLAY_PERMISSION" />
 	<!--one signal-->
 	<permission android:name="com.wowondertimeline.chat.permission.C2D_MESSAGE" android:protectionLevel="signature" />
-	<uses-permission android:name="com.wowondertimeline.chat.permission.C2D_MESSAGE" />
 	<!-- Allow the application to access Google web-based services. -->
 	<permission android:name="com.wowondertimeline.chat.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
 	<application android:name=".MainApplication" android:allowBackup="false" android:label="Based On Rate" android:largeHeap="true" android:hardwareAccelerated="true" android:requestLegacyExternalStorage="true" android:appComponentFactory="androidx" android:supportsRtl="true" android:icon="@mipmap/icon" android:roundIcon="@mipmap/icon_round" android:theme="@style/MyTheme" tools:replace="android:icon, android:label, android:theme, android:name, android:allowBackup, android:supportsRtl, android:appComponentFactory">
